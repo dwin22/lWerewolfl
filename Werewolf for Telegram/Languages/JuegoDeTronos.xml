@@ -1,0 +1,1936 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--
+   Created by / Criado por:
+       Victoria Giovanna (@vihgiovanna)
+    Translated by / Traducido por:
+        Albert (@Albertisiu)
+
+       Última edição: 27/06/2017
+-->
+<strings>
+  <language name="EspañolGOT" base="Español" variant="Juego de Tronos" code="pt-BR" isDefault="true"/>
+  <string key="PlayerStartedGame" isgif="true">
+    <value>{0} Inicio una nueva guerra en Westeros! Unete para luchar por el trono de hierro!</value>
+    <value>La guerra ha sido iniciada por {0}! Entra y calientate, el invierno esta cerca!</value>
+  </string>
+  <string key="PlayerStartedChaosGame" isgif="true">
+    <value>{0} Comenzo a tocar Lluvias de Castamere. Apreta el boton para entrar... Y probablemente morir.</value>
+    <value>{0} Ha iniciado el caos en Los Siete Reinos! Unete para comenzar la locura.</value>
+  </string>
+  <string key="MinuteLeftToJoin">
+    <value>Queda un minuto para unirse a la partida!</value>
+  </string>
+  <string key="SecondsLeftToJoin">
+    <value>Quedan {0} segundos para unirse a la partida!</value>
+  </string>
+  <string key="NotEnoughPlayers">
+    <value>No hay suficientes jugadores para comenzar, la partida ha sido cancelada!</value>
+  </string>
+  <string key="StartingGameWait">
+    <value>La partida esta comenzado, por favor esperad mientras doy los papeles y actualizo la base de datos.</value>
+  </string>
+  <string key="ChangeNameToJoin">
+    <value>{0}, por favor cambia de nombre para unirte a la partida</value>
+  </string>
+  <string key="PlayerLimitReached">
+    <value>Lo siento, el número máximo de jugadores ha sido alcanzado!</value>
+  </string>
+  <string key="PlayerJoined">
+    <value>{0} se unio a la partida. {1} jugadores, {2} mínimo, {3} máximo</value>
+  </string>
+  <string key="PMTheBot">
+    <value>\n{0} por favor, hablame por privado ({1}) y pulsa start para estar registrado.  Para que yo pueda enviarte mensajes privados, primero tienes que enviarme uno tu.</value>
+  </string>
+  <string key="Flee">
+    <value>{0} huyo aterrorizada(o)!</value>
+  </string>
+  <string key="PlayerRoleWas">
+    <value>{0} era {1}</value>
+  </string>
+  <string key="CountPlayersRemain">
+    <value>{0} jugadores restantes.</value>
+  </string>
+  <string key="NotPlaying">
+    <value>Parece que no estas jugando...</value>
+  </string>
+  <string key="WolfVotedKill">
+    <value>{0} voto para matar a {1}</value>
+  </string>
+  <string key="PlayerVotedLynch">
+    <value>{0} voto para linchar a {1}</value>
+  </string>
+  <string key="IdleKill">
+    <value>{0} No voto durante dos noches seguidas. Las personas empiezan a preguntarse donde esta (0), entonces {0} cae de repente, muerta(o).\n{1}</value>
+  </string>
+  <string key="TraitorTurnWolf">
+    <value>Traidor!!! Que vergüenza Walder Frey... ahora estas aliado con los Lannister</value>
+  </string>
+  <string key="ChoiceAccepted">
+    <value>Opción aceptada</value>
+  </string>
+  <string key="BeholderSeer">
+    <value>\No encuentras a Ned Stark {0}</value>
+  </string>
+  <string key="ApprenticeNowSeer">
+    <value>{0} era tu padre, Ned Stark. Como sucesor cuando Robb esta en la guerra, llamas a Verano y te conviertes en el nuevo Señor de Invernalia.</value>
+  </string>
+  <string key="BeholderNewSeer">
+    <value>{0} era Bran Stark y ahora ha tomado el lugar de {1} como Señor de Invernalia.</value>
+  </string>
+  <string key="SeerSees">
+    <value>Has visto que {0} es {1}!</value>
+  </string>
+  <string key="AskLynch">
+    <value>¿A quien quieres linchar?</value>
+  </string>
+  <string key="AskDetect">
+    <value>¿Sobre quien te gustaría chismorrear?</value>
+  </string>
+  <string key="AskShoot">
+    <value>¿A quien quieres disparar? {0} flecha(s) restantes</value>
+  </string>
+  <string key="AskVisit">
+    <value>¿Con quien te gustaria tener una noche de diversion?</value>
+  </string>
+  <string key="AskSee">
+    <value>¿A quien quieres observar?</value>
+  </string>
+  <string key="AskGuard">
+    <value>¿A quien quieres proteger?</value>
+  </string>
+  <string key="AskEat">
+    <value>¿A quien quieres matar?</value>
+  </string>
+  <string key="AskHunt">
+    <value>¿A quién le gustaría preguntar?</value>
+  </string>
+  <string key="AskRoleModel">
+    <value>¿Quién será su perro de caza?</value>
+  </string>
+  <string key="AskConvert">
+    <value>A quien te gustaria convertir a Los Caminantes Blancos?</value>
+  </string>
+  <string key="DiscussWith"><!--Leave the leading spaces here please-->
+    <value>Recuerda discutirlo con {0}</value>
+  </string>
+  <string key="And"> <!--this is paired with "DiscussWith".  again, leave the spaces!-->
+    <value> y </value>
+  </string>
+  <string key="RoleInfoCursed">
+    <value>Eres Tyrion Lannister. Por el momento vives tu vida de vino y prostitutas, pero si tu padre te llama, pasaras a formar parte de las tropas Lannister.</value>
+  </string>
+  <string key="RoleInfoDetective">
+    <value>Eres el Eunuco Varys. Durante el dia, puedes elegir una persona a la que mandar tus pajaritos. Sin embargo, al hacer esto , puedes der descubierto por los Lannister!</value>
+  </string>
+  <string key="RoleInfoDrunk">
+    <value>Felicidades, Eres Robert Baratheon! Aunque tienes resaca, tendras que dar la cara por Westeros. Si los Lannister te matan, ellos se verán tan afectados por el alcohol que no conseguiran atacar a nadie la siguiente noche!</value>
+  </string>
+  <string key="RoleInfoGuardianAngel">
+    <value>Eres Catelyn Tully, tu papel es el de proteger a tu gente. Durante la noche, podras escoger a alguien para protegerle. Pero, si eliges proteger a un Lannister, puedes esperar lo peor.</value>
+  </string>
+  <string key="RoleInfoGunner">
+    <value>Eres Ygritte La Salvaje. Posees 2 flechas y durante el dia podras disparar a alguien. Pero cuidado, si disparas, todo el mundo verá y sabra que eres una salvaje.</value>
+  </string>
+  <string key="RoleInfoHarlot">
+    <value>Eres Margaery Tyrell. Tu abuela, Olenna Tyrell, sabe que tu belleza y tu carisma son tus mejores aliados, por lo cual durante la noche, podrás hacer una visita a otra persona y descubrir sus intenciones. Sin embargo, si visitas a un Lannister, o alguien que está siendo atacado por los Lannister, tu moriras. Si visitas a alguien y los Lannister intentan atacarte en Altojardin, sobreviviras (ya que no estas en casa).</value>
+  </string>
+  <string key="RoleInfoTraitor">
+    <value>Traidor!! Eres Walder Frey! De momento, estas con Westeros, pero estas esperando el momento oportuno para pasarte al bando de los Lannister. Se Ned Stark te ve, puedes ser identificado por el como un aliado de los Lannister.</value>
+  </string>
+  <string key="RoleInfoWolf">
+    <value>Eres Gregor Clegane!! Felicidades! Lideras el ejercito Lannister, pocos osarian enfrentarse a la Montaña. Durante la noche recibiras la orden de Tywin para saber a quien matar junto con tu ejercito.</value>
+  </string>
+  <string key="RoleInfoSeer" >
+    <value >Eres Ned Stark, tu papel es guiar Westeros contra los Lannister.  Durante la noche, podras escoger a alguien para ver y su papel sera revelado.Usted sabe la verdad sobre la legitimidad de los hijos de Robert , pero habla con cautela, ya que los Lannister estan locos por matarte!</value>
+  </string>
+  <string key="RoleInfoVillager" >
+    <value >Eres un westerosi, condenado a pasar tus dias viendo el juego de tronos y esperando para morir en la guerra. Una vez por dia podras votar a alguien para mandar lincharlo, usa tu voto con sabiduría!</value>
+  </string>
+  <string key="RoleInfoTanner" >
+    <value >Eres Tommen Baratheon! Despues de ver la explosion del Gran Septo de Baelor, estas desolado y pierdes ls fe en Westeros, por lo cual, si eres linchado, ganaras automaticamente.</value>
+  </string>
+  <string key="RoleInfoWildChild" >
+    <value >Eres Joffrey Baratheon! Elige alguien que sera tu maestro - si el dice "Muerte al rey" despues de morir, te juntaras con el ejercito de tu abuelo y partiras contra Westeros</value>
+  </string>
+  <string key="RoleInfoBeholder" >
+    <value >Eres Jon Arryn, solo tu sabes donde esta Ned Stark. Tu trabajo sera comunicarselo a los otros westerosi!</value>
+  </string>
+  <string key="RoleInfoApprenticeSeer" >
+    <value >Eres Bran Stark, cuidando de Rickon, Verano y Peludo. Si tu padre muere, tomarás su lugar como Señor de Invernalia mientras Robb esta en la guerra.</value>
+  </string>
+  <string key="RoleInfoCultist" >
+    <value >Eres un Caminante Blanco. Estas enviado por el Rey de la noche, podras elegir a alguien para enviar al Rey. Si todos los jugadores al finalizar la partida son Caminantes Blancos, Vencereis!</value>
+  </string>
+  <string key="RoleInfoCultistHunter" >
+    <value >Los Caminantes Blancos estan en Westeros tratando de convertir a todo el mundo, pero tu, Arya Stark, los buscaras y tendras que eliminarlos a todos! Durante la noche podras escoger a alguien para cazar. Si es un Caminante Blanco, el morira. Si intentan enviarte junto al Rey de la Noche, el miembro mas reciente morira.</value>
+  </string>
+  <string key="LynchTime" >
+    <value >
+      La noche se aproxima y el pueblo de Westeros se reune para decidir a quien linchar...
+      Todo el mundo tiene ahora {0} segundos para votar!
+    </value>
+  </string>
+  <string key="DayTime" >
+    <value >Amanece en Westeros. Desde ahora teneis {0} segundos para hacer vuestras acusaciones y para defenderos de las mismas</value>
+  </string>
+  <string key="NightTime" >
+    <value >Cae la noche. Todos van a dormir bastante cansados despues de un largo dia. Jugadores: teneis {0} segundos para usar vuestras acciones!</value>
+  </string>
+  <string key="LynchKill" >
+    <value >Todos han votado, en medio de dudas y sospechas. {0} está muerto(a). {1}</value>
+  </string>
+  <string key="LynchTie" >
+    <value >Incapaces de llegar a una decision final sobre quien linchar, la multitud vuelve para sus casas con sus espadas y estandartes, frustrados...</value>
+  </string>
+  <string key="NoLynchVotes" >
+    <value >Alguna cosa esta saliendo mal, no hay votos! Nadie sera linchado hoy.....</value>
+  </string>
+  <string key="DetectiveEaten" >
+    <value >Todos se reunen durante la mañana, pero nadie consigue encontrar a {0} entre ellos. Todos corren a sus aposentos y encuentran a {0} muerto, con sus pajaritos. {0} Era Varys!</value>
+  </string>
+  <string key="GuardianEaten" >
+    <value >La mañana llega y, para la sorpresa de todos, en el mar estaba el cuerpo de {0}, Catelyn Tully, con la garganta cortada y su corazon en la boca.</value>
+  </string>
+  <string key="GunnerEaten" >
+    <value >Todos salen de casa y encuentran un arco despedazado... De pronto, en una esquina, aparece el cuerpo de {0}, con su propia flecha en el pecho. Habeis perdido a Ygritte.</value>
+  </string>
+  <string key="SeerEaten" >
+    <value >El pueblo despierta al amanecer y encuentra la cabeza de lo que un día fue {0} empalado en la Fortaleza Roja. Ned Stark está muerto.</value>
+  </string>
+  <string key="DrunkEaten" >
+    <value >Todos se despiertan con un fuerte olor a alcohol y carne desgarrada...  Después de seguir el olor, los restos de {0} son encontrados, devorado por un javali....</value>
+  </string>
+  <string key="FoolEaten" >
+    <value >A medida que el sol se alza sobre Westeros, la gente encuentran a {0} enrrollado en un estandarte de lobo y muerto en Invernalia, al destaparle encuentan un miembro de la Casa... Greyjoy??? JAJAJAJA THEON, QUE NECIO!</value>
+  </string>
+  <string key="DefaultEaten" >
+    <value>Mientras que todos se levantan durante la mañana, sienten un olor horrible. Ellos siguen el olor para encontrar a {0} muerto, enrollado en una bandera carmesi. {1}</value>
+  </string>
+  <string key="HunterKilledCultist">
+    <value>Un olor saliendo por la casa de {0}... La gente decide entrar para encontrar un cuerpo, su rostro desfigurado y su garganta cortada dejan bien claro que paso... Un miembro de Los Caminantes Blancos fue torturado y asesinado por Arya Stark!</value>
+  </string>
+  <string key="NoAttack" >
+    <value >El pueblo se junta durante la mañana suspirando de alívio - parece que no hubo ningun ataque Lannister esta noche.</value>
+  </string>
+  <string key="CursedBitten" >
+    <value >Durante la noche recibes un mensaje de tu padre, Lord Tywin, en el que te convoca para formar parte de la guerra. Te has unido al Ejército Lannister!</value>
+  </string>
+  <string key="CursedBittenToWolves" >
+    <value >{0} era Tyrion Lannister y se unio al ejercito para defender Roca Casterly! Felicidades por su nuevo compañero!</value>
+  </string>
+  <string key="WolvesEatYou" isgif="true" >
+    <value >Mierda! Los Lannister han acabado contigo</value>
+  </string>
+  <string key="WolvesEatDrunk" >
+    <value >Oh no! {0} era Robert Baratheon! Su riñones podridos por el alcohol hace que no puedas atacar la próxima noche...</value>
+  </string>
+  <string key="GuardWolf" >
+    <value >Has intentado proteger a un Lannister, han descubierto que eres la esposa de Ned Stark y han acabado contigo!</value>
+  </string>
+  <string key="GuardSaved" >
+    <value >Has salvado la vida de {0}!</value>
+  </string>
+  <string key="GuardNoAttack" >
+    <value >{0} No fue atacado esta noche. </value>
+  </string>
+  <string key="GuardEmptyHouse">
+    <value>Fuiste a proteger a {0}, pero no estaba en su casa!</value>
+  </string>
+  <string key="GuardSavedYou" >
+    <value >Catelyn Tully te estaba protegiendo durante la noche y expulso a Los Lannister!</value>
+  </string>
+  <string key="HarlotEaten">
+    <value >Margaery Tyrell eligio un mal dia para descansar en Alto Jardin. {0} Esta muerta!</value>
+  </string>
+  <string key="HarlotNotHome" >
+    <value >Que extraño... {0} no estaba en casa! Te has quedado sin muertes por hoy...</value>
+  </string>
+  <string key="HarlotFuckWolf" >
+    <value >Te metiste en casa de {0} para hacerle una visita, pero has tardaste demasiado en saber que el era un Lannister. Estas muerta.</value>
+  </string>
+  <string key="HarlotFuckedWolfPublic" >
+    <value >{0} fue a la casa equivocada durante la noche, Su cuerpo, antes hermoso, fue encontrado quemado en el Gran Septo de Baelor...  </value>
+  </string>
+  <string key="HarlotFuckedVictimPublic" >
+    <value >{0} Visito a {1}, pero ella encontro un Lannister matando a {1}!  El Lannister se gira rapidamente en direccion a {0} y....  {0} esta muerta.</value>
+  </string>
+  <string key="HarlotVisitNonWolf" >
+    <value >Sabes que {0} no es un Lannister, ya que habeis tenido una larga y divertida noche!</value>
+  </string>
+  <string key="HarlotVisitYou" >
+    <value >En medio de la noche alguien golpea en tu puerta y dice ser sólo una visita inocente. Estaba muy oscuro para ver quién era, pero no te pudiste resistir a la dulce llamada.Margaery Tyrell te ha visitado. </value>
+  </string>
+  <string key="DetectiveCaught" >
+    <value >Has visto a los pajaritos de {0} revoloteando por ahi! Es Varys!</value>
+  </string>
+  <string key="DetectiveSnoop" >
+    <value >Tus pajaritos te cuentan que {0} es {1}</value>
+  </string>
+  <string key="HarlotShot" >
+    <value >Parece que {0} no se lo paso bien la ultima noche que estuvo con Margaery Tyrell! Ygritte se volvio loca y se vengó. {1} esta muerta.</value>
+  </string>
+  <string key="DefaultShot" >
+    <value >De repente, una flecha es disparada. Todos se giran para ver a {0} de pie encima del cuerpo de {1}, con una flecha atravensandole el pecho {2}.</value>
+  </string>
+  <string key="WolfWins" isgif="true" >
+    <value >Los Lannister tienen el trono de hierro!</value>
+  </string>
+  <string key="WolvesWin" isgif="true" >
+    <value >Los Lannister tienen el Trono de Hierro!</value>
+  </string>
+  <string key="VillageWins" isgif="true" >
+    <value >El pueblo de Westeros ha ganado la guerra! Todos los Lannister y su ejercito ha sido eliminado....</value>
+  </string>
+  <string key="TannerWins" isgif="true" >
+    <value >Oh no! Habeis linchado a Tommen!  ¡Él venció el juego, inutiles!</value>
+  </string>
+  <string key="RemainingPlayersEnd">
+    <value>Jugadores restantes, papeles y equipo:</value>
+  </string>
+  <string key="CultistVotedConvert" >
+    <value >{0} voto para convertir a {1}</value>
+  </string>
+  <string key="CultConvertCultHunter">
+    <value>{0} fue enviado para convertir a {1}... Pero ella era Arya Stark y estaba en posicion para introducir su espada, Aguja, en el pecho del Hombre sin Rostro! {0} esta muerto(a)!</value>
+  </string>
+  <string key="CultHunterKilledCultVisit">
+    <value>{0} fue a tu casa para convertirte.... Pero le clavaste tu espada Aguja ferozmente. Un miembro de Los Caminantes Blancos esta muerto... {1} restante(s)!</value>
+  </string>
+  <string key="CultConvertYou">
+    <value>Has sido convertido en un Hombre sin Rostro. Durante la noche, podrás tratar de convertir a alguien.</value>
+  </string>
+  <string key="CultJoin">
+    <value>{0} se unio a Los Caminantes Blancos!</value>
+  </string>
+  <string key="CultVisitEmpty">
+    <value>{0} fue enviado para convertir a {1}... Pero no habia nadie en casa!</value>
+  </string>
+  <string key="CultWins">
+    <value >Todos los Lannister estan muertos y las unicas personas vivas pertenecem a Los Caminantes Blancos...  Viva el Dios de Muchos Rostros!</value>
+  </string>
+  <string key="HunterVisitDead">
+    <value>Fuiste a investigar a {0}, pero llegando allí sólo encontraste su cuerpo sin vida!</value>
+  </string>
+  <string key="HunterFindCultist">
+    <value>Te diriges a la casa de {0} y ves rostros pintados en las paredes, ya sabes lo que hacer... Desenvainas a Aguja y acabas con el Hombre sin Rostro!</value>
+  </string>
+  <string key="HunterFailedToFind">
+    <value>Vas a casa de {0} pero no hay ninguna señal de Los Caminantes Blancos.</value>
+  </string>
+  <string key="WildChildToWolves">
+    <value>El maestro de {0} murio! Era un niño mimado, pero ahora ha decidido unirse al ejercito de su abuelo!</value>
+  </string>
+  <string key="WildChildTransform">
+    <value>Escuchas a {0} decir "Muerte al Rey", tu maestro ha muerto! Como venganza te unes al ejercito de tu abuelo para acabar por Westeros.Tus nuevos compañeros son: {1}</value>
+  </string>
+  <!-- Villager, Drunk, Harlot, Seer, Traitor, GuardianAngel, Detective, Wolf, Cursed, Gunner, Tanner, Fool, WildChild, Beholder, ApprenticeSeer, Cultist, CultistHunter-->
+  <string key="Villager">
+    <value>un Westerosi 👱</value>
+  </string>
+  <string key="Drunk">
+    <value>Robert Baratheon 🍻</value>
+  </string>
+  <string key="Harlot">
+    <value>Margaery Tyrell 💋</value>
+  </string>
+  <string key="Seer">
+    <value>Ned Stark 👳</value>
+  </string>
+  <string key="Traitor">
+    <value>Walder Frey 🖕</value>
+  </string>
+  <string key="GuardianAngel">
+    <value>Catelyn Tully 👼</value>
+  </string>
+  <string key="Detective">
+    <value>Varys 🕵</value>
+  </string>
+  <string key="Wolf">
+    <value>Gregor Clegane 🐺</value>
+  </string>
+  <string key="Cursed">
+    <value>Tyrion Lannister 😾</value>
+  </string>
+  <string key="Gunner">
+    <value>Ygritte 🔫</value>
+  </string>
+  <string key="Tanner">
+    <value>Tommen Baratheon 👺</value>
+  </string>
+  <string key="Fool">
+    <value>Theon Greyjoy 🃏</value>
+  </string>
+  <string key="WildChild">
+    <value>Joffrey Baratheon 👶</value>
+  </string>
+  <string key="Beholder">
+    <value>Jon Arryn 👁</value>
+  </string>
+  <string key="ApprenticeSeer">
+    <value>Bran Stark 🙇</value>
+  </string>
+  <string key="Cultist">
+    <value>Hombre sin Rostro👤</value>
+  </string>
+  <string key="CultistHunter">
+    <value>Arya Stark 💂</value>
+  </string>
+  <!-- These are for the player list -->
+  <string key="RanAway">
+    <value>Huir</value>
+  </string>
+  <string key="Dead">
+    <value>💀 Muerto</value>
+  </string>
+  <string key="Alive">
+    <value>🙂 Vivo(a)</value>
+  </string>
+   <string key="PlayersAlive">
+    <value>Jugadores vivos</value>
+  </string>
+  <!-- New strings 4 MAY 2016-->
+  <string key="Mason">
+    <value>Un Soldado de la Guardia de la Noche 👷</value>
+  </string>
+  <string key="RoleInfoMason">
+    <value>Eres un Soldado de la Guardia de la Noche, tu papel es proteger el muro que protege Westeros. Si hay outros Soldados, sabras quienes son. Si no hay mas soldados, tendras que proteger tu solo 500 metros da Muralla.</value>
+  </string>
+  <string key="MasonEaten">
+    <value>A medida que todos se levantan durante la mañana, encuentran el cuerpo de {0} vistiendo un manto negro. Un soldado de la Guardia de la Noche ha muerto.</value>
+  </string>
+  <string key="MasonTeam">
+    <value> Los soldados de la Guardia de la Noche son: {0}</value>
+  </string>
+  <!-- new strings May 6 2016-->
+  <string key="CultTargetDead">
+    <value>El miembro más reciente de Los Caminantes Blancos se oculta tras la casa de {0} para convertirlo, pero cuando decide entrar solo puede encontrar su cuerpo sin vida...</value>
+  </string>
+  <string key="GuardBlockedWolf">
+    <value>Tu ejercito se dirige a la casa de {0}, pero se encuentran con una trampa de Catelyn Tully para protegerlo. Como no sabían si estaba en las ordenes Lord Tywin matar a Catelyn, el ejército vuelve a Roca Casterly.</value>
+  </string>
+  <!-- new strings May 9 2016-->
+  <string key="CultUnableToConvert">
+    <value>{0} fue enviado(a) para convertir a {1}, pero si fe a los dioses antiguos y nuevos es demasiado fuerte.</value>
+  </string>
+  <!-- new string May 12 2016-->
+  <string key="NameExists">
+    <value>@{1}, un(a) jugador(a) con el nombre {0} ya se ha unido a la partida. Por favor cambia tu nombre para poder entrar en la partida.</value>
+  </string>
+  <string key="HarlotDiscoverCult">
+    <value>Has visitado a {0}, pero mientras salias de su casa notaste a través de una puerta semiabierta paredes llenas de caras....</value>
+  </string>
+  <!-- new string May 13 2016-->
+  <string key="Was">
+    <value>era</value>
+  </string>
+  <string key="GenericDeathNoReveal">
+    <value>A medida que todos se levantan y salen de casa durante la mañana, notan la ausencia de {0}... Cuando registran su casa, encuetran su cuerpo sin vida.</value>
+  </string>
+  <string key="MasonConverted">
+    <value>Que extraño.... {0} no estaba en el encuentro con el Maestre Aemon hoy... </value>
+  </string>
+  <!-- new string May 16 2016-->
+  <string key="FleeDisabled">
+    <value>¡Intentas huir pero los rumores de los Caminantes Blancos hicieron que los administradores cerrasen las salidas para que nadie pueda salir! ¡Buena suerte con eso!</value>
+  </string>
+  <string key="IsDead"> <!-- used when gunner shoots a player -->
+    <value>Esta muerto!</value>
+  </string>
+    <!-- MORE STRINGS May 16, 2016 -->
+  <string key="AlreadyInGame">
+    <value>Ya estas defendiendo Westeros en otro grupo! ({0})</value>
+  </string>
+  <string key="NoGame">
+    <value>Nadie esta luchando por el Trono de Hierro en estos momentos. Comienza una nueva partida normal con /startgame o una caotica con /startchaos</value>
+  </string>
+  <string key="GroupAdminOnly">
+    <value>Solo un administrador(a) puede usar este comando.</value>
+  </string>
+    <string key="NoSeer">
+	<value>No tenemos Señor de Invernalia!</value>
+  </string>
+  <string key="TimesUp">
+	<value>Se acabo el tiempo!</value>
+  </string>
+  <!-- new strings june 10 2016 -->
+  <string key="RoleInfoCupid">
+    <value>Eres Sansa Stark. Creyendo en el amor y en cuentos de hadas, puedes elegir a dos jugadores que se amarán para toda la eternidad. Si uno de ellos muere, el otro morirá de tristeza.</value>
+  </string>
+  <string key="RoleInfoDoppelganger">
+    <value>Eres Jaqen H'ghar. Cres en el Dios de muchos Rostros, pero dejaste los Hombre sin Rostro y ahora te puedes convertir en cualquier persona que desees! Escoge a un jugador, cuando el muera, usaras su rostro y te haras pasar por el</value>
+  </string>
+  <string key="RoleInfoHunter">
+    <value>Eres Robb Stark! El Rey en el Norte, si mueres, puedes elegir a alguien para que Viento Gris lo mate. Si los Lannister te visitan durante la noche, no eres alguien que aceptaría morir sin luchar , pero en la oscuridad, no consigues ver a que Lannister has atravesado con tu espada.</value>
+  </string>
+  <string key="RoleInfoSerialKiller">
+    <value>Eres Lord Petyr Baelish.Tu equipo eres tu mismo y los otros jugadores no son más que tus juguetes. Cada noche puedes elegir a un jugador para matar y así ganar cada vez más poder.</value>
+  </string>
+  <string key="CupidChosen">
+    <value>Has sido elegido por Sansa, y {0} nunca dejará tu corazón. Si uno de los dos muere, el otro irá hasta el mundo de los muertos para que ambos continúen juntos. Si uno de ustedes vence en la guerra, ambos ganaran aunque no pertenezcan al misml bando.</value>
+  </string>
+  <string key="HunterLynchedChoice">
+    <value>Tu pueblo ha decidido lincharte! Es tu momento para decirle a Viento Gris a quien debe matar!</value>
+  </string>
+  <string key="HunterNoChoiceLynched">
+    <value>{0} Intentas llamar a Viento Gris, pero es demasiado tarde...</value>
+  </string>
+  <string key="HunterSkipChoiceLynched">
+    <value>{0} Llama a Viento Gris, y señala a la multitud ... Sus ojos de norteño tratan de decidir quién va a llevar con él. Pero él acepta su fin, solo ...</value>
+  </string>
+  <string key="HunterKilledFinalLynched">
+    <value>{0} Ordena a Viento Gris atacar a {1}! "El Norte no olvida" murmura Robb Stark mientras que {1} es devorado por su lobo huargo. {2}</value>
+  </string>
+  <string key="HunterShotChoice">
+    <value>¡Has sido linchado por tu pueblo! Con tu último suspiro, puedes llevarte a alguien contigo... Solo susurra el nombre de tu victima a Viento Gris.</value>
+  </string>
+  <string key="HunterNoChoiceShot">
+    <value>El cuchillo de Roose Bolton lesiona a {0} profundamente, tanto que consigue ni siquiera llamar a Viento Gris, cayendo brutalmente al suelo...</value>
+  </string>
+  <string key="HunterSkipChoiceShot">
+    <value>{0}, Pacífico como su padre, decide no ordenar a Viento Gris que mate a nadie, aceptando su destino...</value>
+  </string>
+  <string key="HunterKilledFinalShot">
+    <value>{0} Ordena a Viento Gris que ataque a {1}! "El norte no olvida" murmura Robb Stark mientras que {1} es devorado. {2}</value>
+  </string>
+  <string key="HunterShotWolfMulti">
+    <value>Con un fuerte olor de carne desgarrada, el pueblo se reúne para ver que ocurre. Los Lannister atacaron a la persona equivocada, Robb Stark, que no se marchó solo y se llevo a {0} junto a él.</value>
+  </string>
+  <string key="HunterShotWolf">
+    <value>Los Lannister intentaron atacar a la persona equivocada la ultima noche! Robb Stark sabe protegerse muy bien y dejó un regalo para Viento Gris, el cuerpo de {0}!</value>
+  </string>
+  <string key="SerialKillerKilledWolf">
+    <value>¡Los Lannister intentaron atacar a la persona equivocada la ultima noche! {0} es encontrado muerto! Todo apunta que fue obra de Petyr Baelish.</value>
+  </string>
+  <string key="DefaultKilled">
+    <value>Parecia una noche normal, ¿pero donde esta {0}? Todos se reunen en la casa de {0}, pero solo encuentran su cuerpo ensangrentado... Un escalón menos para Lord Baelish. {1}</value>
+  </string>
+  <string key="GuardBlockedKiller">
+    <value>Te dirijias a matar a {0}.Pero llegando allí te encuentras con tu amada Cat y huyes antes de que ella te vea!</value>
+  </string>
+  <string key="CultConvertHunter">
+    <value>Los Caminantes Blancos mandan a {0} para convertir a {1}. Llegando a la casa de {0} reciben una calurosa bienvenida con los mordicos de Viento Gris! {0} está muerto.</value>
+  </string>
+  <string key="CultConvertSerialKiller">
+    <value>Los Caminantes Blancos mandan a {0} para convertir a {1}. Llegando a la casa de {0} percibe que se trata de Petyr Baelish y descubre sus planes secretos... {0} esta muerto</value>
+  </string>
+  <string key="GuardKiller">
+    <value>Has intentado proteger a la persona equivocada. Lord Baelish te invita a jugar con él, por todo ese tiempo que lo despreciaste.</value>
+  </string>
+  <string key="HarlotFuckKiller">
+    <value>Has visitado {0} para tener una relacion inocente. Pero al percibir los planes de {0}, él se lanza hacia ti y te mata. Parece que fue obra de Lord Baelish.</value>
+  </string>
+  <string key="HarlotFuckKillerPublic">
+    <value>Parece que Petyr Baelish no queria visitas nocturnas! El cuerpo de {0} fue encontrado carbonizado en el Grand Septo de Baelor, ¿Habra sido cosa de Lord Baelish?</value>
+  </string>
+  <string key="DGToMason">
+    <value>Jaqen H'ghar {0} se unio a los Soldados de la Guardia de la Noche, dale una gran bienvenida!</value>
+  </string>
+  <string key="DGTransformToMason">
+    <value>{0} Felicidades, ahora eres un soldado de La Guardia de la Noche. Tus compañeros (si los hay) son: {1}</value>
+  </string>
+  <string key="DGToCult">
+    <value>Jaqen H'ghar {0} decidio volver a La Casa de Blanco y Negro para unirse de nuevo a Los Caminantes Blancos.</value>
+  </string>
+  <string key="DGTransformToCult">
+    <value>{0} Has decidido volver a La Casa de Blanco y Negro junto con tus antiguos compañeros, Los Caminantes Blancos. Tus nuevos compañeros (si los hay) son: {1}</value>
+  </string>
+  <string key="DGToWolf">
+    <value>Jaqen H'ghar {0} se unio al Ejercito Lannister!</value>
+  </string>
+  <string key="DGTransformToWolf">
+    <value>{0} Te has unido al ejercito Lannister!!!  Tus compañeros en el ejercito son: {1}</value>
+  </string>
+  <string key="SerialKillerWins" isgif="true">
+    <value>El unico superviviente en la guerra por el Trono de Hierro fue Lord Baelish! Se divertio mucho con esta absurda guerra, porque no hay diversión mejor que ganar!</value>
+  </string>
+  <string key="AskKill">
+    <value>¿A quien quieres matar esta noche?</value>
+  </string>
+  <string key="LoverDied">
+    <value>{0} da su último suspiro mirando a los ojos de su amor, {1}, que sostiene su cuerpo de rodillas. {1} no aguanta el dolor, y, con un cuchillo, atraviesa su propio corazón ... Ellos estaran juntos, incluso en el mas allá. {2}</value>
+  </string>
+  <string key="AskDoppelganger">
+    <value> ¿A quien quieres robarle el rostro después de su muerte?</value>
+  </string>
+  <string key="AskCupid1">
+    <value>Quem será o casal? Escolha o primeiro amante.</value>
+  </string>
+  <string key="AskCupid2">
+    <value>¿Quién será la pareja? Elige el segundo amante.</value>
+  </string>
+  <string key="Hunter">
+    <value>Robb Stark 🎯</value>
+  </string>
+  <string key="Cupid">
+    <value>Sansa Stark 🏹</value>
+  </string>
+  <string key="SerialKiller">
+    <value>Petyr Baelish 🔪</value>
+  </string>
+  <string key="Doppelgänger">
+    <value>Jaqen H'ghar 🎭</value>
+  </string>
+  <string key="NewWCRoleModel">
+    <value>Te has convertido en Joffrey Baratheon. Elige tu maestro, si muere, te uniras al ejercito de su abuelo{0}</value>
+  </string>
+  <string key="LoversWin">
+    <value>Los amantes han conseguido el Trono de Hierro! ¿Acaso lo dudaban? El amor siempre vence!</value>
+  </string>
+  <string key="HunterKilledVisiter">
+    <value>Cuando todos despiertan, solo pueden encontrar a {0} devorado por Viento Gris. ¡Parece que alguien visitó a Robb Stark y salio mal! {1}</value>
+  </string>
+
+  <string key="CultAttempt">
+    <value>Alguien intento convertirte a Los Caminantes Blancos, pero tu fe en tus dioses antiguos y nuevos es más fuerte.</value>
+  </string>
+  <string key="AlreadyOnWaitList">
+    <value>Estas en la lista de espera para conquistar el Trono de Hierro{0}</value>
+  </string>
+  <string key="AddedToWaitList">
+    <value>{0} Has sido agregado a la lista de espera. Le enviaré un mensaje privado cuando la proxima partida comience.</value>
+  </string>
+  <string key="NotifyNewGame">
+    <value>Una nueva guerra por el Trono de Hierro va a comenzar {0}</value>
+  </string>
+  <string key="SerialKillerWinsOverpower">
+    <value>La mañana llega en Westeros y sólo dos personas quedan en pie. {0} mira a {1}, una sonrisa irónica se abre en su cara. "El caos no es un abismo, el caos solo es una escalera al Trono y no todos pueden subirlas" Pero yo lo he conseguido.{1}.</value>
+  </string>
+  <string key="NoWinner" isgif="true">
+    <value>Todos en Westeros estan muertos ... Nadie conquisto el Trono de hierro... O bueno, tal vez, los Hijos del Bosque.</value>
+  </string>
+  <string key="SKHunterEnd">
+    <value>El sol sale en el horizonte, {0} y {1} son los únicos supervivientes. {0} se acerca sonriente a {1}, y lo invita a su burdel. {1} rápidamente llama Viento Gris y lo manda atacar a {0}. {0}, con su ultimo aliento, clava su puñal en {1} y ambos mueren desagrados. Todos han muerto y nadie ha conseguido el Trono de Hierro...</value>
+  </string>
+    <string key="RoleModelChosen">
+    <value>No has decidido a tiempo y el bot escogió por usted: {0}</value>
+  </string>
+  <string key="Won">
+    <value>Gano</value>
+  </string>
+  <string key="Lost">
+    <value>Perdio</value>
+  </string>
+  <string key="IdleCount">
+    <!-- 0 - player's name -->
+    <!-- 1 - idle count -->
+    <value>El jugador {0} no voto durante dos noches, los Dioses Antiguos y Nuevos han visto esto como una traicion y lo han asesinado. {1} vez en la últimas 24 horas.</value>
+	</string>
+<!--Novas Strings, feitas dia 07/06/2016. Traduzidas dia 09/06/2016-->
+  <string key="AboutVG">
+    <value>Usted es un westerosi, estas condenado a pasar sus días viendo el juego de los tronos y esperando a ser asesinado en guerra. Una vez al día puedes votar a alguien para mandar a la horca, usa tu voto con sabiduria.</value>
+  </string>
+  <string key="AboutSeer">
+    <value>Eres Ned Stark, su papel es guiar a Westeros en la lucha contra Los Lannister. Durante la noche, usted puede elegir a alguien para ver, y tener su papel revelado a usted.</value>
+  </string>
+  <string key="AboutWw">
+    <value>Eres Gregor Clegane!! Bien por ti! Líder del ejército Lannister, pocos se atreven a meterse con la Montaña. Durante la noche recibirás ordenes de Tywin para que mates a alguien junto con su ejercito.</value>
+  </string>
+  <string key="AboutHarlot">
+    <value>Eres Margaery Tyrell. Tu abuela , Olenna Tyrell, siempre te dice que tu carisma y tu belleza son tus mayores aliados, por lo cual, durante la noche podras escoger a alguien para hacerle una visita y descubrir las intenciones de esa persona. Pero si visitas a un Lannister, o alguien que está siendo atacado por los Lannister, morirás. Si visitas a alguien y los Lannister tratan de matarte en Altojardin, sobreviviras ya que no estaras en casa .</value>
+  </string>
+  <string key="AboutDrunk">
+    <value>¡Enhorabuena, eres Roberto Baratheon! Tienes resaca, pero luchas por Westeros. Si los Lannister te matan, ellos estarán tan impactados por el olor a alcohol que no van a poder atacar a nadie.</value>
+  </string>
+  <string key="AboutCursed">
+    <value>Eres Tyrion Lannister. De momento vives tu vida de vino y prostitutas, pero si tu padre te llama, acudiras a su llamada y entraras en las tropas Lannister para proteger Roca Casterly.</value>
+  </string>
+  <string key="AboutTraitor">
+    <value>Traidor!! Eres Walder Frey! Por lo pronto, estas con Westeros, pero sólo está esperando el momento oportuno para pasar al bando de los Lannister. Si Ned Stark te ve, puedes que el te vea como parte del Ejército Lannister.</value>
+  </string>
+  <string key="AboutGA">
+    <value>Eres Catelyn Tully, y su papel es proteger a las personas. Durante la noche, puedes elegir a alguien para proteger. Pero si usted elige un Lannister, puede suceder lo peor.</value>
+  </string>
+  <string key="AboutDetective">
+    <value>Eres el eunuco Varys, vives por Westeros. Durante el dia, podras elegir una persona para que sus pajaritos revoloten.  Sin embargo, al hacer esto, usted puede ser descubierto por los Lannister! (40% de posibilidades)</value>
+  </string>
+  <string key="AboutGunner">
+    <value>Eres Ygritte. Tienes 2 flechas y durante el día usted puede disparar a alguien. Todo el mundo verá y sabrán que eres una salvaje.</value>
+  </string>
+  <string key="AboutTanner">
+    <value>Eres Tommen Baratheon! Después de ver la explosión del Gran Septo de Baelor, te quedas desolado y desistes de Westeros, así que si te han linchado ganas automáticamente, solo.</value>
+  </string>
+  <string key="AboutFool">
+    <value> Eres Theon Greyjoy juras que eres Stark... pero cuando eliges ver a alguien a la noche, recibe un papel al azar.</value>
+  </string>
+  <string key="AboutCult">
+    <value>Eres un Hombre sin Rostro. Vienes de la Ciudad Libre de Bravos, usted podrá elegir a alguien para llevar la Casa de Blanco y el Negro. Si todos los jugadores restantes al final del juego son Caminantes Blancos, vencen!</value>
+  </string>
+  <string key="AboutCH">
+    <value>Los Caminantes Blancos están en Westeros tratando de convertir a todo el mundo, y usted, Arya Stark, es buscada después de dejar la Casa del Blanco y el blanco, así que debes eliminar a todos! Durante la noche usted podrá elegir a alguien para preguntar. Si él es un hombre sin rostro, muere. En caso de que te encuentren, el miembro más reciente intetara acabar contigo pero seras mas rapida y le atravesaras con aguja.</value>
+  </string>
+  <string key="AboutWC">
+    <value>Eres Joffrey Baratheon. Elegiras un maestro, si le escuchas decir "Muerte al rey" al morir, te uniras al ejercito de tu abuelo para vengarle.</value>
+  </string>
+  <string key="AboutAppS">
+    <value>Eres Bran Stark,  cuidas de Rickon, Verano y Peludo. Si tu padre muere, tomaras su lugar como Señor de Invernalia mientras Robb está en la guerra.</value>
+  </string>
+  <string key="AboutBH">
+    <value>Eres Jon Arryn, eres el unico que sabe por donde anda Ned Stark. Utilice esto para ayudar a Westeros.</value>
+  </string>
+  <string key="AboutMason">
+    <value>Eres un soldado de La Guardia de la Noche, y su papel en Westeros es fundamental para proteger el muro. Si hay otros soldados, usted sabrá quiénes son. De lo contrario, será sólo usted y los extensos 500 metros del muro.</value>
+  </string>
+  <string key="AboutDG">
+    <value> Eres Jaqen H'ghar. Eres es un antiguo miembro de los Hombre sin Rostro, y puedes tomar cualquier forma que desee! Escoge a un jugador, cuando muera, usaras su rostro.</value>
+  </string>
+  <string key="AboutCupid">
+    <value>Eres es Sansa Stark. Creyendo en el amor y en cuentos de hadas, puedes elegir a dos jugadores que se amarán para toda la eternidad. Si uno de ellos muere, el otro morirá de tristeza.</value>
+  </string>
+  <string key="AboutHunter">
+    <value>Eres Robb Stark! El Rey en el Norte, si mueres, puedes elegir a alguien para que Viento Gris lo mate. Y si los Lannister te visitan durante la noche, no eres alguien que aceptaría morir sin luchar, pero en la oscuridad, no sabes a que Lannister has atravesado con tu espada.</value>
+  </string>
+  <string key="AboutSK">
+    <value>Eres Petyr Baelish. Tu equipo eres tu mismo y los otros jugadores no son más que tus juguetes. Cada noche puedes elegir a un jugador para matar y así ganar cada vez más poder.</value>
+  </string>
+  <string key="AboutPara">
+    <value>Para es el desarrollador de este juego y le gusta observar a las personas. Tal vez él ha pasado mucho tiempo con los Lannister ... Ir con los Lannister no es una idea muy buena, ¿verdad?</value>
+  </string>
+  <string key="EndTime">
+    <value>Duracion de la partida: {0}</value>
+  </string>
+ 
+ 
+    <!--New strings, July the 8th -->
+
+  <string key="Day">
+    <!--0 - Day -->
+    <value>{0}º dia</value>
+  </string>
+  <string key="NodeShutsDown">
+    <value>Algo habeis hecho mal, dep partida.</value>
+  </string>
+  <string key="SentPrivate">
+    <value>Te he enviado un privado (No son nudes)</value>
+  </string>
+  
+  <string key="WhatToDo">
+    <value>¿Que quieres hacer?</value>
+  </string>
+  <string key="PingInfo">
+    <value>Tiempo para procesar un mensaje: {0}\\nMensajes por segundo: {1}</value>
+  </string>
+  <string key="WhatLang">
+    <value>¿Que idioma quieres?\nActual: {0}</value>
+  </string>
+  <string key="WhatVariant">
+    <value>¿Que variante?\nActual: {0}</value>
+  </string>
+  <string key="LangSet">
+    <value>Idioma definido como {0}</value>
+  </string>
+  <string key="GetLang">
+    <value>¿Que archivo necesitas?</value>
+  </string>
+  <string key="NoNodes">
+    <value>No hay nodos ligados en este momento, por favor intentalo nuevamente dentro de algunos segundos</value>
+  </string>
+  <string key="GroupCommandOnly">
+    <value>Necesitas estar en un grupo para usar este comando!</value>
+  </string>
+  <string key="NotGlobalAdmin">
+    <value>No eres un administrador global...</value>
+  </string>
+  <string key="NotPara">
+    <value>Tu no eres Para!</value>
+  </string>
+  <string key="Yes">
+    <value>Si</value>
+  </string>
+  <string key="No">
+    <value>No</value>
+  </string>
+  <string key="Allow">
+    <value>Permitir</value>
+  </string>
+  <string key="Disallow">
+    <value>No permitir</value>
+  </string>
+  <string key="Show">
+    <value>Mostrar</value>
+  </string>
+  <string key="Hide">
+    <value>No mostrar</value>
+  </string>
+  <!-- Game Mode Choices-->
+  <string key="NormalOnly">
+    <value>Solo partida Normal</value>
+  </string>
+  <string key="ChaosOnly">
+    <value>Solo partida Caos</value>
+  </string>
+  <string key="PlayerChoice">
+    <value>Elige los Jugadores</value>
+  </string>
+
+  <!-- Show Roles on End Game -->
+  <string key="ShowNone">
+    <value>No mostrar ninguno</value>
+  </string>
+  <string key="ShowLiving">
+    <value>Mostrar solo de jugadores vivos</value>
+  </string>
+  <string key="ShowAll">
+    <value>Mostrar el de todos los jugadores</value>
+  </string>
+
+  <string key="Cancel">
+    <value>Cancelar</value>
+  </string>
+  <string key="AllowFleeQ">
+    <!-- note, there is NO space after {0}.  This is on purpose # editem isso quando der pra traduzir o "not"# -->
+    <value>¿Quieres permitir flee después del inicio de una partida?
+  ¡Recuerda que los jugadores siempre pueden huir antes del inicio de la partida!
+  actual: {0}</value>
+  </string>
+  <string key="AllowFleeA">
+    <!-- note, there is NO space after {0}.  This is on purpose  # editem isso quando der pra traduzir o "not" # -->
+    <value>{0} Elige si los jugadores pueden huir después del inicio de la partida</value>
+  </string>
+  <string key="MaxPlayersQ">
+    <value>¿Qué cantidad de jugadores le gustaría definir como la máxima?
+  actual: {0}</value>
+  </string>
+  <string key="MaxPlayersA">
+    <value>Numero maximo de jugadores definido como {0}</value>
+  </string>
+  <string key="ShowRolesDeathQ">
+    <value>Quieres mostrar los roles de los jugadores al morir?
+  Atual: {0}</value>
+  </string>
+  <!-- # editem isso quando der pra traduzir o shown/hidden # -->
+  <string key="ShowRolesDeathA">
+    <value>{0}el papel de los jugadores al morir.</value>
+  </string>
+  <string key="GameModeQ">
+    <value>Que modo de juego estara activo en el grupo?
+  Actual: {0}</value>
+  </string>
+  <string key="GameModeA">
+    <value>Modo de juego definido como {0}</value>
+  </string>
+  <string key="ShowRolesEndQ">
+    <value>¿Cómo quieres que los papeles de jugadores sean revelados al final del juego?
+  Actual: {0}</value>
+  </string>
+  <string key="ShowRolesEndA">
+    <value>Revelacion de roles definida como: {0}</value>
+  </string>
+  <string key="SetDayTimeQ">
+    <value>Escoja la duracion (en segundos) del dia. También se modificará de acuerdo con el número de jugadores. 
+  Configuración predeterminada: {0}
+  Actual: {1}</value>
+  </string>
+  <string key="SetDayTimeA">
+    <value>Duracion base del dia definida como {0} segundos</value>
+  </string>
+  <string key="SetNightTimeQ">
+    <value>Escoja la duracion (en segundos) de la noche. 
+  Configuración predeterminada: {0}
+  Actual:{1}</value>
+  </string>
+  <string key="SetNightTimeA">
+    <value>Duracion de la noche definida como {0} segundos</value>
+  </string>
+  <string key="SetLynchTimeQ">
+    <value>Elige la duracion (en segundos) del linchamiento. ]
+  Configuracion predeterminada: {0}
+  Actual:{1}</value>
+  </string>
+  <string key="SetLynchTimeA">
+    <value>Duração da votação do linchamento definida como {0} segundos</value>
+  </string>
+  <string key="AllowFoolQ">
+    <value>Permitir que el Necio aparezca en partida?
+  Actual: {0}</value>
+  </string>
+  <string key="AllowFoolA">
+    <value> Aparicion del necio definida como: {0}</value>
+  </string>
+  <string key="AllowTannerQ">
+    <value>Permitir que aparezca el veterano en partida?
+  Actual: {0}</value>
+  </string>
+  <string key="AllowTannerA">
+    <value>Aparicion del Veterano definida como: {0}</value>
+  </string>
+  <string key="AllowCultQ">
+    <value>Permitir que aparezca el culto en partida?
+  Actual: {0}</value>
+  </string>
+  <string key="AllowCultA">
+    <value>Aparicion del culto definida como: {0}</value>
+  </string>
+  <string key="ThankYou">
+    <value>Gracias! Que tengas buena partida!</value>
+  </string>
+   <string key="WhatLangGroup">
+    <value>¿En que idioma quieres que este el grupo que buscas?</value>
+  </string>
+  <string key="HereIsList">
+    <value>Aqui estan los grupos que he encontrado {0}:</value>
+  </string>
+  <string key="Members">
+    <value>Miembros</value>
+  </string>
+  <string key="StartMe">
+    <value>Por favor pulsa start por privado para que te pueda enviar mensajes!</value>
+  </string>
+  <string key="PlayerNoPM">
+    <value>{0} no me hablo por privado! y fue expulsado(a) de la partida!</value>
+  </string>
+  <string key="LatestList">
+    <value>Aqui esta la lista de jugadores mas reciente</value>
+  </string>
+  <string key="UnableToGetList">
+    <value>No he sido capaz de encontrar la lista de jugadores mas reciente, ¿estas seguro de que el juego ha comenzado?</value>
+  </string>
+  <string key="YouJoined">
+    <value>Te has unido a la partida {0}</value>
+  </string>
+    <string key="Ping2">
+    <value>Tiempo para enviar el mensaje: {0}</value>
+  </string>
+  
+  <!-- Update 4.0-->
+  <string key="RoleInfoMayor">
+    <value>Eres Stannis Baratheon. Hermano mayor de Robert y rey ​​por derecho, tu voto durante el linchamiento contará doble, una vez que te reveles como legitimo sucesor.</value>
+  </string>
+  <string key="RoleInfoPrince">
+    <value>Eres Daenerys Targaryen, vives escapando de quienes te persiguen debido a las locuras de tu padre. Si tratan de lincharte, Drogon, Viserion y Rhaegal aparecerán para defenderte y nadie será linchado.</value>
+  </string>
+  <string key="RoleInfoClumsyGuy">
+    <value>No sabes nada Jon Nieve! Eres Jon Nieve: Durante el dia intentaras votar, pero te quedaras dudando si linchar a alguien es correcto o un error y puedes acabar votando mal. Sin embargo, luchas por Westeros.</value>
+  </string>
+  <string key="RoleInfoSorcerer">
+    <value>Eres Cersei Lannister, luchas junto a tu padre contra Westeros. Durante la noche intentarás encontrar aliados de los Lannister, o a Ned Stark para mandar matarlo. Pero cuidado, solo ganaras si los Lannister conquistan el Trono de Hierro. Disfruta exterminando a esos miserables. </value>
+  </string>
+  <string key="RoleInfoBlacksmith">
+    <value>Eres Oberyn Martell, el Dorniense mas conocido en Westeros. Tienes un gran conocimiento sobre venenos, suficiente para impedir que los Lannister ataquen. Durante el día podrás esparcir tu veneno y anular el ataque de los Lannister. </value>
+  </string>
+  <string key="RoleInfoAlphaWolf">
+    <value>Eres Tywin Lannister, Señor de Roca Casterly. Cada noche podras escoger a alguien para que su ejército encuentre y mate, pero mientras estes vivo, hay una pequeña posibilidad de que su víctima abandone su bando y se una como aliado Lannister. </value>
+  </string>
+  <string key="RoleInfoWolfCub">
+    <value>Eres Jaime Lannister, el hijo favorito de Tywin. Como tu padre, cada noche elegiras a alguien para que tu ejército ataque y mate. Si Tywin de entera de tu muerte, enfurecido, te vengará asesinando a dos personas en la noche siguiente.</value>
+  </string>
+  <string key="PrinceLynched">
+    <value>El pueblo se prepara para linchar a {0}, pero antes de que puedan hacer nada 3 enormes criaturas aparecen en el cielo. "Soy Daenerys Targaryen, Hija de la Tormenta, la que no arde, Madre de Dragones, Rompedora de cadenas, Reina de los Andalos y de los Primeros Hombres, Señora de los Siete Reinos, Khaleesi de los Dothraki, la Primera de su Nombre". Amedrentados, todos vuelven a sus casas a dormir con la cola entre las piernas.</value>
+  </string>
+  <string key="SorcererOther">
+    <value>Investigas a {0}, pero todo lo que puedes observar es que no es Ned Stark ni un aliado de tu padre ...</value>
+  </string>
+  <string key="MayorReveal">
+    <value>Davos Seaworth y Melisandre dan un paso al frente anunciando que {0} ha llegado. El saca la Portadora de Luz, demostrando ser Stannis Baratheon, el rey por derecho. De ahora en adelante, los votos de {0} para linchar a alguien contaran el doble.</value>
+  </string>
+  <string key="AskMayor">
+    <value>Pulsa "Revelar" cuando quieras desenfundar La Portadora de Luz y declararte heredero del trono.</value>
+  </string>
+  <string key="Reveal">
+    <value>Revelar</value>
+  </string>
+  <string key="SpreadDust">
+    <value>¿Quieres extender el veneno hoy, impidiendo asi que el ejército Lannister ataque esta noche?</value>
+  </string>
+  <string key="BlacksmithSpreadSilver">
+    <value>Mientras el resto de Westerosi debate sobre lo que está pasando, {0} anda por ahi esparciendo veneno. De momento, la aldea estará segura de ataques de los Lannister y sus hombres.</value>
+  </string>
+  <string key="Mayor">
+    <value>Stannis Baratheon 🎖</value>
+  </string>
+  <string key="Prince">
+    <value>Daenerys Targaryen 👑</value>
+  </string>
+  <string key="Sorcerer">
+    <value>Cersei Lannister 🔮</value>
+  </string>
+  <string key="ClumsyGuy">
+    <value>Jon Nieve 🤕</value>
+  </string>
+  <string key="Blacksmith">
+    <value>Oberyn Martell ⚒</value>
+  </string>
+  <string key="AlphaWolf">
+    <value>Tywin Lannister ⚡️</value>
+  </string>
+  <string key="WolfCub">
+    <value>Jaime Lannister 🐶</value>
+  </string>
+  <string key="PlayerBittenWolves">
+    <value>El ejército comenzo ha atacar a {0}, pero de repente, {1}, Tywin Lannister, les obliga a parar. Tywin piensa que {0} debería aliarse a ellos en lugar de morir. Nadie pone ninguna pega y todos vuelven a sus casas. {0} recibirá el oro de los Lannister mañana por la noche. </value>
+  </string>
+  <string key="PlayerBitten">
+    <value>El ejercito Lannister intento matarte durante la noche, pero Tywin Lannister te eligio. En vez de ser asesinado, has sido elegido para unirte a su ejército, recibirás el oro Lannister mañana por la noche!</value>
+  </string>
+  <string key="BittenTurned">
+    <value>El sol se pone, y recibes varios dragones de oro ... Ahora luchas en el ejército Lannister!</value>
+  </string>
+  <string key="AboutMayor">
+    <value>Eres Stannis Baratheon, eres un westerosi común, hasta que te revelas. Entonces tu voto sera contado dos veces a la hora de linchar a alguien (es decir, su voto es dos veces más poderoso que cualquiera). Utiliza tu poder sabiamente para salvar Westeros.</value>
+  </string>
+  <string key="AboutPrince">
+    <value>Eres Daenerys Targaryen una parte importante de Westeros. Así que si tratan de lincharte, tus dragones aparecerán y sobreviviras. Asi que solo podras ser asesinada durante la noche, o por Viento Gris a mando de Robb Stark.</value>
+  </string>
+  <string key="AboutSorcerer">
+    <value>Eres Cersei Lannister. Durante la noche intentaras encontrar aliados de los Lannister o a Ned Stark. Estas en el bando de los Lannister.</value>
+  </string>
+  <string key="AboutClumsy">
+    <value>Eres Jon Nieve. No sabes nada y te confundes todo el tiempo. No sabes si linchar a alguien es algo noble o ruin. ¿Podrás votar correctamente a la hora de linchar a alguien o te comera el remordimiento? (Usted tiene un 50% de probabilidad de votar a alguien al azar en vez de a la persona seleccionada)</value>
+  </string>
+  <string key="AboutBlacksmith">
+    <value>Eres Oberyn Martell. Durante años no has manejado ninguna espada. Nada te da mas satisfacción que imaginar la muerte de los Lannister después de lo que le sucedió con tu hermana, Elia Martell. Tal vez todavía tienes algún veneno util contra ellos... ¿Quien sabe? Tal vez incluso previene que el ejército Lannister pueda atacar durante la noche 🤔.</value>
+  </string>
+  <string key="AboutAlphaWolf">
+    <value>Eres Tywin Lannister, el origen de todo mal, el Señor de Roca Casterly. Mientras vivas, tu víctima tendra un 20% de probabilidad de unirse a tu ejército.
+    </value>
+  </string>
+  <string key="AboutWolfCub">
+    <value>Eres Jaime Lannister, el hijo favorito de Tywin Lannister. Si mueres, el ejército Lannister asesinara a dos personas para vengar tu muerte.</value>
+  </string>
+ <!-- new strings 06 nov-->
+  <string key="DGTransformToAlpha">
+    <!-- 0 - target's name -->
+    <!-- 1 - teammates's name -->
+    <value>{0} Felicidades, le has robado el rostro a Tywin Lannister. Tus nuevos compañeros (si los hay) son: {1}</value>
+  </string>
+  <string key="DGTransformToWolfCub">
+    <!-- 0 - target's name -->
+    <!-- 1 - teammates's name -->
+    <value>{0} Felicidades! le has robado el rostro a Jaime Lannister. Tus nuevos compañeros (si los hay) son: {1}</value>
+  </string>
+  <string key="VillageTeamEnd">
+  <value>Victoria de Westeros</value> 
+  </string>
+- <string key="NeutralTeamEnd">
+  <value>Neutro</value> 
+  </string>
+- <string key="WolfTeamEnd">
+  <value>Victoria de los Lannister</value> 
+  </string>
+- <string key="SerialKillerTeamEnd">
+  <value>Lord Petyr Baelish se ha hecho con el trono de hierro</value> 
+  </string>
+- <string key="CultTeamEnd">
+  <value>Los Caminantes Blancos han conquistado Westeros</value> 
+  </string>
+- <string key="TannerTeamEnd">
+  <value>Tommen Baratheon gana</value> 
+  </string>
+  - <string key="CultConvertWolf">
+  <value>Los Caminantes Blancos envían a {0} para tratar de convertir a {1}, pero en vez de eso, su cabeza es lanzada por la ventana. {0} está muerto ...</value> 
+  </string>
+ <string key="HarlotFuckedKilledPublic">
+    <value>{0} va a la casa de {1}, lista para una noche de sexo y pasion... Pero al llegar solo puede encontrar a Lord Baelish matando a {1}! Cuando se percata de tu presencia, no le queda otra que acabar tambien con {0} ...</value>
+  </string>
+  <!--New Death Strings 05 Nov-->
+  <string key="ApprenticeSeerEaten">
+    <value>La gente sale de sus casas parar encontrar el cuerpo de Bran Stark, {0} , sin brazos ni piernas... Ned, sentirá su muerte.</value>
+  </string>
+  <string key="BlacksmithKilled">
+    <value>Parece que {0}, Oberyn Martell, no ha tenido mucha suerte. Además de tener la cabeza reventada, varios venenos suyos desaparecieron. ¡Lord Baelish se divirtio durante la noche, no cabe duda!</value>
+  </string>
+  <string key="CultistKilled">
+    <value>Por la mañana, todos salen de casa para encontrar un cadaver en mitad de la plaza. ¡A Lord Baelish no le importa la religión, todos son juguetes para él! Los Caminantes Blancos van a sentir la muerte de {0}...</value>
+  </string>
+  <string key="CupidKilled">
+    <value>El corazón de todos los Westerosi se rompe al encontrar a {0}, Sansa Stark, muerta. Esto solo puede ser obra de una persona, Lord Baelish.</value>
+  </string>
+  <string key="DrunkKilled">
+    <value>{0}, Robert Baratheon, aparece con las entrañas devoradas por un jabalí y un olor a alcohol muy desagradable a su alrededor. Obviamente, todo apunta a una trampa de Lord Baelish. </value>
+  </string>
+  <string key="GuardianAngelKilled">
+    <value>Los Westerosi encuentran a  {0}, en la orilla de la playa, con la garganta cortada y el corazon en un puño. {0}, Catelyn Tully, está muerta, y ahora su corazón es de piedra.</value>
+  </string>
+  <string key="GunnerKilled">
+    <value>En mitad de la noche, todos despiertan al escuchar el grito de una mujer, al salir de sus casas se dan cuenta que una flecha impacto en el pecho de {0}, que resulto ser... ¡Ygritte! Todo apunta a otro asesinato de Lord Baelish.</value>
+  </string>
+  <string key="MayorKilled">
+    <value>¡Durante la noche hubo un terrible asesinato! {0}, Stannis Baratheon, fue encontrado quemado en una pira! Lord Baelish sabia como acabar con Stannis de una forma que todos recordarían...</value>
+  </string>
+  <string key="PrinceKilled">
+    <value>Las campanas resuenan por todo Westeros antes de la salida del sol. La muerte de {0}, Daenerys Targaryen, deja a sus dragones extremadamente tristes. Nadie pudo encontrar ninguna pista, pero su cuerpo fue encontrado en un burdel Lord Baelish.</value>
+  </string>
+  <string key="SeerKilled">
+    <value>Los Westerosi se despiertan para ver el cuerpo de {0}, Ned Stark, muerto. Su cabeza estaba empalada en la cima de la Fortaleza Roja. Sin duda, fue resultado de una trampa de Lord Baelish!</value>
+  </string>
+  <string key="SorcererEaten">
+    <value>Rodeada por el ejército Lannister, la víctima intenta decir sus ultimas palabras para evitar ser asesinada: "Sois idiotas, soy yo, Cersei Lannister !!!". Pero estaba oscuro, y eso no fue suficiente para convencer al ejército. Sin duda cometieton un error. Cersei Lannister, {0} ,está muerta.</value>
+  </string>
+  <string key="WildChildEaten">
+    <value>La mañana llega, y para la sorpresa de todos, Joffrey Baratheon, {0} , es encontrado muerto. Lo que quedaba fue sólo su maestro, sin entender lo que sucedió.</value>
+  </string>
+  <string key="SerialKillerKilledCH"> <!--used when CH visits SK-->
+    <value>Westeros despertó esta mañana sólo para encontrar un cuerpo muerto en la Baia de las Pulgas. {0}, Arya Stark, visitó a la persona equivocada. Lord Baelish utilizó la propia Aguja para su trabajo.</value>
+  </string>
+  <string key="CultConvertWolfPublic"> <!--used when Cultists convert the wolves, only if wolves stayed home-->
+    <value>Pésima elección de Los Caminantes Blancos al visitar a un Lannister que decidió quedarse en casa durante la noche. {0} está muerto.</value>
+  </string>
+  <string key="CultConvertKillerPublic"> <!--used when Cultists convert the SK-->
+    <value>Ayer por la noche, Los Caminantes Blancos decidieron visitar a la única persona más extraña que ellos, Lord Petyr Baelish, y por eso, {0} fue asesinado. </value>
+  </string>
+  <string key="GAGuardedKiller">
+    <value>Ayer, {0} intento proteger a Lord Baelish. Los Westerosi solo encontraron el cuerpo de {0} flotando en el mar con la garganta cortada y con el corazón de piedra.</value>
+  </string>
+  <string key="GAGuardedWolf">
+    <value>{0} Intento proteger a un Lannister durante la noche. Los Westerosi encontraron solo el cuerpo de {0} flotando en el mar con la garganta cortada y con el corazon de piedra.</value>
+  </string>
+  <string key="HunterKillsWolfEnd">
+		<value>{0} y {1} son los últimos que quedaron vivos en la ciudad  y {1} no estaba de acuerdo con esto... En el silencio de la noche, se dirigió a la casa de {0}, pensando que sería fácil matar a Robb Stark. Lo que quedo de {1} fueron restos que Viento Gris no se comio. ¡El último Lannister murió!</value>
+  </string>
+  <string key="WolfKillsHunterEnd">
+	<value>Solo {0} y {1} han sobrevivido y {1} no esta de acuerdo con ello... En el silencio de la noche, se dirigió a la casa de {0}, que aún estaba durmiendo. Lo que quedo de {0} fue sólo Viento Grises , que se encontraba durmiendo.</value>
+  </string>
+  <string key="CHKillsCultistEnd">
+	<value>Al ver el símbolo de la casa de Blanco y Negro en {0}, {1} se da cuenta que {0} forma parte de Los Caminantes Blancos. Entonces, {1} saca a Aguja por última vez y la clava en el pecho de {0}. Ahora Westeros esta a salvo de Los Caminantes Blancos.</value>
+  </string>
+  <string key="SecondsAdded">
+	<value>El tiempo de entrada se ha ampliado en {0} segundos! Ahora quedan {1} segundos para unirse a la partida!</value>
+  </string>
+  <string key="SecondsRemoved">
+	<value>El tiempo de entrada para la partida se ha reducido en {0} segundos.
+{1} restante para unirse a la partida.</value>
+  </string>
+  <string key="CantExtend">
+	<value>Sólo los administradores pueden extender el tiempo más de una vez!</value>
+  </string>
+  <string key="AllowExtendQ">
+	<value>¿Los jugadores pueden extender el tiempo?
+  Actual: {0} extender
+  Nota: Los administradores siempre pueden extender.</value>
+  </string>
+  <string key="AllowExtendA">
+	<value>{0} a los jugadores extender el tiempo para unirse a la partida</value>
+  </string>
+  <string key="MaxExtendQ">
+	<value>Seleccione el número máximo de segundos para agregar al comando / extend. Estándar: {0}
+  Actual: {1}</value>
+  </string>
+  <string key="MaxExtendA">
+	<value>El tiempo máximo para extender el juego se ha cambiado a {0} segundos.</value>
+  </string>
+  <string key="WolvesEatDrunkBlockSecondKill">
+	<value>¡Pésima elección! {0} era Robert Baratheon! Ahora no podras matar a nadie! {1}!</value>
+  </string>
+  <string key="JoinButton">
+	<value>Entrar a la partida</value>
+  </string>
+  <string key="NotMember">
+	<value>No puedes entrar en el juego, ya que no estas en el grupo {0}.</value>
+  </string>
+  <string key="JoinByButton">
+	<value>Por favor, utilice el botón para entrar en la partida en lugar del comando join.</value>
+  </string>
+  <string key="PlayerVoteCounts">
+	<value>{0} jugadores votaron, {1} total.</value>
+  </string>
+  <string key="EnableSecretLynchQ">
+	<value>Activar el Linchamento Secreto?\nActual: {0}</value>
+  </string>
+  <string key="EnableSecretLynchA">
+	<value>Linchamento secreto definido como: {0}</value>
+  </string>
+  <string key="NoAutoJoin">
+	<value>{0}, recuerda que usted también debe entrar en el juego pulsando el boton!.</value>
+  </string>
+  <string key="GroupNotFound"> 
+	<value>No se pudo encontrar el grupo. Ejecute este comando en el grupo desde el que desea salir de la lista de espera o añada el enlace, id o nombre del grupo delante del comando.</value>
+  </string>
+  <string key="DeletedFromWaitList">
+	<value>Has sido añadido a la lista de espera del grupo {0}.</value>
+  </string>
+  <string key="CultTeam">
+	<value>Tus compañeros son: {0}</value>
+  </string>
+  <string key="WolfTeam">
+	<value>Tus compañeros del ejército son: {0}</value>
+  </string>
+  <string key="NoPlayerName">
+	<value>Error: No consigo encontrar ningun jugador con ese nombre .</value>
+  </string>
+  <string key="DeadFlee">
+	<value>No puede huir, ya estas muerto.</value>
+  </string>
+  <string key="JoinFromGroup">
+	<value>¡Necesitas estar dentro de un grupo para unirte a una partida!</value>
+  </string>
+  <string key="StartFromGroup">
+	<value>¡Necesitas estar dentro de un grupo para comenzar una partida!</value>
+	</string>
+  <string key="HaveJoined">
+    <!-- {0} = list of people who have joined -->
+    <value>Lista de jugadores que se unieron a la partida en los últimos 30 segundos: {0}.</value>
+  </string>
+  <string key="StartPM">
+    <value>Por favor, envíeme un mensaje en privado para que pueda enviar mensajes.</value>
+  </string>
+  <string key="PMTrue">
+    <value>Gracias por activarme! Ahora puedo enviarte mensajes privados.</value>
+  </string>
+  <string key="MustReplySmite">
+    <value>Necesita utilizar el comando smite como respuesta al usuario que deseas aniquilar.</value>
+	</string>
+	  <string key="AllowCult">
+    <value>Permitir culto</value>
+  </string>
+  <string key="AllowTanner">
+    <value>Permitir veterano</value>
+  </string>
+  <string key="AllowFool">
+    <value>Permitir necio</value>
+  </string>
+  <string key="EnableSecretLynch">
+    <value>Activar el linchamento secreto</value>
+  </string>
+  <string key="RandomMode">
+    <value>Ativar el Modo Aleatorio</value>
+  </string>
+  <string key="AllowExtend">
+    <value>Permitir extender el tiempo</value>
+  </string>
+  <string key="ShowRolesDeath">
+    <value>Mostrar papeles al morir</value>
+  </string>
+  <string key="AllowFlee">
+    <value>Permitir huir de la partida</value>
+  </string>
+  <string key="ShowIDs">
+    <value>Mostrar IDs durante el join.</value>
+  </string>
+  <string key="ShowIDsQ">
+    <value>¿Mostrar los IDs de los jugadores conforme se vayan uniendo?\nActualmente: {0}</value>
+  </string>
+  <string key="ShowIDsA">
+    <value>{0} IDs</value>
+  </string>
+  <string key="All">
+    <!-- used when searching for groups in all the variants -->
+    <value>Todas</value>
+  </string>
+    <string key="RandomModeQ">
+    <value>¿Permitir modo aleatorio?\nCuando el modo aleatorio está activado, cada vez que alguien inicie una partida, se asignarán aleatoriamente los siguientes parámetros: partidas caóticas, linchamientos secretos, que se muestren los roles tras morir y que se permitan cultistas, necio o veterano.\nActualmente:{0}</value>
+  </string>
+  <string key="RandomModeA">
+    <value>Modo aleatorio: {0}</value>
+  </string>
+    <string key="AllowNSFW">
+    <value>Permitir packs de GIFs NSFW</value>
+  </string>
+  <string key="AllowNSFWQ">
+    <value>¿Permitir que los jugadores tengan packs de GIFs NSFW?\nActualmente: {0}</value>
+  </string>
+  <string key="AllowNSFWA">
+    <value>{0} GIFs NSFW</value>
+  </string>
+  
+    <string key="TannerEnd">
+    <!-- 0 - Tanner name -->
+    <value>Con el albor del nuevo día, {0} se despierta en medio de un gran silencio. Dándose cuenta de que no queda nadie, {0} empieza a caminar en soledad por todo el pueblo. Entonces, {0} suspira al ver los cuerpos sin vida de sus antiguos vecinos; su sueño de ser linchado está tan muerto como ellos. Así pues, rebusca, y encuentra la vieja soga que tantas vidas se ha llevado, se la anuda al cuello con ternura y, se deja caer atado desde la viga de su bar preferido.</value>
+    <value>{0} se levanta solo con el alba. La impotencia recorre las venas de {0} al darse cuenta de que su misión masoquista ha fracasado estrepitosamente; así que {0} coge una cuerda y se cuelga al darse cuenta de que no queda nadie que pueda lincharlo.</value>
+  </string>
+  <string key="SorcererEnd">
+    <!-- 0 - Sorcerer name -->
+    <value>Los místicos ojos de {0} se abren, pero en lugar del típico bullicio del pueblo, se encuentra con un silencio sepulcral. Se queda mirando al monótono techo y deja que la realidad se funda en él. Todo el mundo está muerto. Sus lobos no volverán jamás. Con gran angustia en su negro corazón, {0} se pone en pie y mete sus pertenencias en su viejo baúl; después se aleja hasta el final del pueblo. Una lágrima se desliza del ojo de {0} mientras recuerda lo cerca que ella y la manada estuvieron de la victoria. ¡Ay!, tiempo es ya de empezar una nueva vida con otros lobos que la requieran. {0} se introduce en el sombrío bosque y deja atrás su querido pueblo.</value>
+    <value>A pesar de los esfuerzos de {0}, su vida ya carece de emoción y gracia. Aun con la victoria de los lobos, no queda nadie con quien saborear el éxito ni aldeanos de quien mofarse. Así las cosas, {0} mira en su bola de cristal, donde silenciosamente desaparecen sus anhelos en una neblina espesa. Se dispone, pues, a buscar nuevos lobos, aliados que la ayuden a llenar su oscura vida y sacia su sed de causar males a la humanidad.</value>
+  </string>
+  <string key="WhatVariantVets">
+    <value>¿Qué variante?\nActualmente: {0}\nComo has jugado 500 juegos, puedes acceder también a: </value>
+  </string>
+  <string key="Skip">
+	<value>Omitir</value>
+  </string>
+  <!-- New Roles, April 2018 -->
+  <string key="DGTransformToLycan">
+    <!-- 0 - target's name -->
+    <!-- 1 - teammates's name -->
+    <value>{0} ha muerto, por lo que le has robado el rostro y te has convertido en Ramsay Bolton. Tus ayudantes (si los hay) son: {1}</value>
+  </string>
+  <string key="NegSeerSees">
+    <!-- 0 - target's name -->
+    <!-- 1 - role that they are not -->
+    <value>¡Percibes que {0} NO es {1}!</value>
+  </string>
+  <string key="AskSandman">
+    <value>¿Quieres dormir a toda la aldea esta noche?</value>
+  </string>
+  <string key="SandmanSleepAll">
+    <value>Mientras la aldea discute, empieza a sonar una dulce melodía. Esta noche, todos caerán en un sueño profundo, y nadie podrá hacer acciones nocturnas.</value>
+  </string>
+  <string key="SandmanNight">
+    <value>Cae la noche y los aldeanos apenas llegan a sus camas por el agotamiento. Se quedan dormidos profundamente, ni siquiera recuerdan haberse ido a dormir...</value>
+  </string>
+
+  <string key="AllowThiefQ">
+    <value>¿Permitir ladrón?\nActualmente: {0}</value>
+  </string>
+  <string key="AllowThiefA">
+    <value>El ladrón ahora: {0}</value>
+  </string>
+  <string key="RankPerksQ">
+    <value>¿Pueden recibir los jugadores con rango ventajas?\nActual: {0}</value>
+  </string>
+  <string key="RankPerksA">
+    <value>Ventajas de rango: {0}</value>
+  </string>
+  <string key="AllowThief">
+    <value>Permitir Ladrón</value>
+  </string>
+  <string key="RankPerks">
+    <value>Activar Ventajas de Rango</value>
+  </string>
+
+  <string key="RoleInfoWolfMan">
+    <value>Eres Khal Drogo, lider de los Dothraki. Sin embargo, debido a que pasas mucho tiempo junto a los Salvajes, Ned Stark te percibirá como un enemigo. ¡Oh, no!</value>
+  </string>
+  <string key="WolfMan">
+    <value>Khal Drogo 👱🌚</value>
+  </string>
+  <string key="AboutWolfMan">
+    <value>Khal Drogo es un Dothraki, con la diferencia de que Ned Stark le percibe como un enemigo para Westeros, debido al tiempo que pasa junto a los salvajes.</value>
+  </string>
+
+  <string key="RoleInfoLycan">
+    <value>¡Eres el Ramsay Bolton!  Decidiste unirte a los Lannister, pero Ned se confundirá y te percibirá como un Nieve mas. :)</value>
+  </string>
+  <string key="Lycan">
+    <value>Ramsay Bolton 🐺🌝</value>
+  </string>
+  <string key="AboutLycan">
+    <value>Ramsay Bolton decidio ayudar a los Lannister, pero aparecerá como un Nieve a Ned Stark.</value>
+  </string>
+
+  <string key="RoleInfoOracle">
+    <value>Eres Lady Melisandre. Cada noche podrás encender las llamas para consultar a R'hllor y aclarar tus dudas sobre alguien. Pero cuidado, R'hllor no podra decirte el cometido de la persona por la que preguntas y en su lugar verás en que ocupa su tiempo otro ciudadano que este vivo todavía, así que presta atención a su cometido, aún queda uno de esos enemigos de R'hllor. :)</value>
+  </string>
+  <string key="Oracle">
+    <value>Lady Melisandre 🌀</value>
+  </string>
+  <string key="AboutOracle">
+    <value>Lady Melisandre será informada del cometido que alguien NO desempaña, y ese cometido será de alguien que esté vivo todavía.</value>
+  </string>
+
+  <string key="RoleInfoSandman">
+    <value>Eres Daario Naharis. Una única vez en la partida podrás dormir profundamente a todos con ayuda de tus dagas envenenadas, haciendo que nadie pueda desempeñar su cometido esa noche.</value>
+  </string>
+  <string key="Sandman">
+    <value>Daario Naharis 💤</value>
+  </string>
+  <string key="AboutSandman">
+    <value>Una vez por partida, podras dormir profundamente a todos los jugadores de modo que nadie pueda desempeñar su cometido esa noche.</value>
+  </string>
+
+<!-- Original bot roles -->
+  <string key="RoleInfoPacifist">
+    <value>Eres el Gorrion Supremo. Tienes el poder de persuadir a todo el mundo para que nadie pueda linchar a otro durante el dia. Solo podrás hacerlo una vez.</value>
+  </string>
+  <string key="Pacifist">
+    <value>el Gorrion Supremo ☮️</value>
+  </string>
+  <string key="AboutPacifist">
+    <value>El Gorrion Supremo puede persuadir a todo el mundo para que nadie linche. Solo podrá hacerlo una vez.</value>
+  </string>
+
+  <string key="RoleInfoWiseElder">
+    <value>Eres Olenna Tyrell. Podrás sobrevivir al ataque de los Lannister una única vez; la siguiente vez no tendrás tanta suerte. Si el Ygritte o Robb Stark te matan, serán relevados de su puesto y se convertirán en Westerosi.</value>
+  </string>
+  <string key="WiseElder">
+    <value>Olenna Tyrell 📚</value>
+  </string>
+  <string key="AboutWiseElder">
+    <value>Olenna Tyrell podrá sobrevivir al ataque de los Lannister una única vez; la siguiente vez que los Lannister quieran asesinarla podrán hacerlo. Si Ygritte o Robb Stark la matan, perderán su puesto y se convertirán en Westerosi.</value>
+  </string>
+
+  <string key="RoleInfoThief">
+    <value>Eres el ladrón. Cada día puedes robarle el voto a un jugador. Si tienes éxito, sus linchamientos no valdrán nada y aumentarás el valor de los tuyos. Si muere un jugador cuyo voto robaste, perderás el valor de su voto. Tu objetivo es robar a todos los jugadores vivos.</value>
+  </string>
+  <string key="Thief">
+    <value>el ladrón 😈</value>
+  </string>
+  <string key="AboutThief">
+    <value>El ladrón es un personaje solitario, como la asesina. Cada día puedes robar el voto de un jugador. La probabilidad de éxito es la misma que de culteo, excepto que los roles inculteables tienen 100% de ser robados, y el alcalde 0%. Los votos del ladrón valen inicialmente 0, y suma 1 por cada jugador vivo al que haya robado. Los jugadores robados podrán seguir votando pero sus votos no valen nada.</value>
+  </string>
+  
+  <string key="AskPacifist">
+    <value>¿Quieres evitar que se linche hoy?</value>
+  </string>
+  <string key="PacifistNoLynch">
+  <!-- {0} - Pacifist's name -->
+    <value>El pacifista, {0}, está dando un emotivo discurso de paz, amor y amistad en la plaza del pueblo. Conmovido por su retórica, el pueblo decide no linchar a nadie esta noche.</value>
+  </string>
+  <string key="PacifistNoLynchNow">
+    <value>A causa del enternecedor discurso del pacifista, no habrá linchamientos por hoy.</value>
+  </string>
+  <string key="WolvesTriedToEatWiseElder">
+  <!-- 0 - Wise Elder's name -->
+    <value>Intentasteis entrar en la casa de {0}, ¡pero desgraciadamente la anciana sabia se encontraba ahí! {0} impidió con éxito el ataque, pero, afortunadamente, no han reconocido a ninguno de vosotros.</value>
+  </string>
+  <string key="WolvesAteWiseElderPM">
+    <value>Los Lannister intentaron acabar contigo de una vez por todas, pero no te convertiste en Señora de Altojardin por nada. Evitaste con éxito el ataque, pero por desgracia no reconociste a ninguno de los atacantes.</value>
+  </string>
+  <string key="HunterKilledWiseElder">
+  <!-- {0} - Hunter's Name -->
+  <!-- {1} - Wise Elder's Name -->
+    <value>Robb Stark, {0}, disparó a Olenna Tyrell , {1}. {0} solloza con gran tristeza, lamentando su grave error, que le ha hecho perder su puesto en la Guerra. Ha muerto como un simple Westerosi.</value>
+  </string>
+  <string key="GunnerShotWiseElder">
+  <!-- {0} - Gunner's Name -->
+  <!-- {1} - Wise Elder's Name -->
+    <value>Ygritte, {0}, disparó a Olenna Tyrell, {1}. {0} solloza con gran tristeza, lamentando su grave error, y decide retirarse, lo que lo convierte en un simple Westerosi con mucha tierra que arar.</value>
+  </string>
+  
+  <string key="Peace">
+  <!-- Used for Pacifist's button -->
+	<value>¡Haya paz!</value>
+  </string>
+  <string key="LynchPeaceTimeout">
+  <!-- Used in PM if the pacifist uses his ability during lynch phase -->
+	<value>¡Hoy no habrá linchamientos gracias al emotivo discurso del Gorrion Supremo!</value>
+  </string>
+  
+  <string key="SnowWolf">
+	<value>Roose Bolton 🐺❄️</value>
+  </string>
+  <string key="RoleInfoSnowWolf">
+    <value>Eres Roose Bolton Cada noche, en lugar de seguir a los Lannister, merodearás para tender una trampa a un Westerosi, que será incapaz de cumplir su cometido nocturno; no obstante, tu víctima tendrá conocimiento de tus trampas y no podrá ser atrapado dos noches seguidas.</value>
+  </string>
+  <string key="AboutSnowWolf">
+    <value>Roose Bolton es un aliado de los Lannister y participe en la Boda Roja, Como tal, has dominado el arte de realizar emboscadas. Ya que no acabas de confiar en los Lannister, prefieres trabajar por separado. En lugar de asesinar a alguien con tus aliados, durante la noche puede escoger a otra víctima para tenderle una trampa; de este modo, imposibilitaras a tus víctimas para llevar a cambo sus planes nocturnos. Sin embargo, tu víctima tendrá conocimiento de dichas trampas y no caera dos noches seguidas.</value>
+  </string>
+  <string key="AskFreeze">
+	<value>¿A quien quieres ponerle una trampa esta noche?</value>
+  </string>
+  <string key="WolfPackList">
+    <value>El ejército Lannister está formado por {0}.</value>
+  </string>
+  <string key="WolfPackSnowList">
+    <value>Tu ejercito es {0}, y Roose Bolton es {1}.</value>
+  </string>
+  <string key="DGTransformToAlphaWithSnow">
+    <value>{0} ha muerto, y le has robado el rostro para sustituir a Twyin Lannister. Tu Ejército es: {1}, y Roose Bolton es {2}.</value>
+  </string>
+  <string key="DGTransformToWolfCubWithSnow">
+   <value>{0} ha muerto, y le has robado el rostro a Jaime Lannister. Tu Ejército es: {1}, y Roose Bolton es {2}.</value>
+  </string>
+  <string key="DGTransformToWolfWithSnow">
+   <value>{0} ha muerto, y le has robado el rostro a Gregor Clegane. Tu Ejército es: {1}, y Roose Bolton es {2}.</value>
+  </string>
+  <string key="DGTransformToLycanWithSnow">
+   <value>{0} ha muerto, y le has robado el rostro a Ramsay Bolton. Tu Ejército es: {1}, y Roose Bolton es {2}.</value>
+  </string>
+  <string key="DGTransformToSnowWolf">
+   <value>{0} ha muerto, y le has robado el rostro a Roose Bolton. Tu Ejército (si lo ha) es: {1}.</value>
+  </string>
+  <string key="DGToSnowWolf">
+    <value>Jaqen H'ghar, {0}, ¡se ha unido al ejército Lannister para sustituir a Roose Bolton!</value>
+  </string>
+  <string key="WildChildSnowTransform">
+    <value>¡{0} ha muerto! En un ataque de rabia, has decidido unirte al ejército Lannister. Tu Ejército es: {1}, y Roose Bolton es {2}.</value>
+  </string>
+  <string key="HarlotFrozen">
+    <value>Mientras abres la puerta para salir de casa, antes de poder reaccionar ya has caido en la trampa de Roose Bolton, lo que provoca que te quedes inmóvil. Te quedas en tu puerta maldiciendo sileciosamente esta extraña forma de «bondage».</value>
+  </string>
+  <string key="CultistFrozen">
+    <value>Mientras abres la puerta para salir de casa, pisas donde no debes, lo que provoca que te quedes inmóvil por la trampa de Roose Bolton. Los demas caminantes blancos terminan avergonzados al ver la situación en la que has acabado.</value>
+  </string>
+  <string key="CHFrozen">
+    <value>Mientras abres la puerta para salir de casa, sintes que algo no va bien, de golpe te quedas inmóvil al caer en la trampa de Roose Bolton. Tus caderas comienzan a cansarse despues de estar en esa posición durante tantas horas. </value>
+  </string>
+  <string key="SeeingFrozen">
+  <!-- used for seer, fool, oracle and sorcerer -->
+    <value>Mientras te dirigias a realizar tus cometidos nocturnos, sientes que algo no va bien, de golpe te quedes inmóvil por la trampa de Roose Bolton. Normalmente el estar sujeta no es un problema, pero no consigues hacer nada.</value>
+  </string>
+  <string key="SeeingFrozenNext">
+  <!-- used for seer, fool, oracle and sorcerer -->
+    <value>Mientras te dirigias a realizar tus cometidos nocturnos, sientes que algo no va bien, de golpe te quedes inmóvil por la trampa de Roose Bolton. Debido a esto, no podrás realizar ningun cometido nocturno la próxima noche.</value>
+  </string>
+  <string key="GAFrozen">
+    <value>Mientras abres la puerta para salir de casa, notas que algo te inmoviliza, lo que provoca que no puedas moverte por una trampa. Ahora pareces un adorno mas.</value>
+  </string>
+  <string key="SKFrozen">
+    <value>Mientras abres la puerta para salir de casa, notas una presencia cerca, antes de que puedas reaccionar ya has caido en la trampa de Roose Bolton. Ahora solo te queda jurar venganza contra el.</value>
+  </string>
+  <string key="PyroFrozen">
+    <value>Mientras abres la puerta para salir de casa, escuchas un ruido cerca de tu casa. Sin embargo, Roose Bolton no sabia que eres Aerys Targaryen, así que prendes un palo con fuego valyrio y sigues con tus malvados planes.</value>
+  </string>
+  <string key="VisitorFrozen">
+    <value>Mientras abres la puerta para salir de casa, observas a alguien en la distancia corriendo, antes de que puedas siquiera pararte a pensar ya has caído en la trampa de Roose Bolton.</value>
+  </string>
+  
+  <string key="DefaultFrozen">
+  <!-- used for all roles without (every-)night action -->
+    <value>Mientras estabas durmiendo, notas un corte en el brazo, pero al intentar respondet te das cuenta de que estas complemtamente inmóvil. Parece que Roose Bolton tiene algo que ver.</value>
+  </string>
+  <string key="SuccessfulFreeze">
+    <value>Fuiste a casa de {0} y lograste ponerle una trampa. Esta noche no será capaz de cumplir ningun cometido.</value>
+  </string>
+  <string key="SnowFrozeKiller">
+	<value>Roose Bolton, {0}, se preparaba para ponerle una trampa a alguien durante la noche, pero accidentalmente visitó a Petyr Baelish;  este se ha percatado de su inesperado visitante y ha apuñalado a {0}.</value>
+  </string>
+  <string key="SnowWolfTurnWolf">
+	<value>Los otros Lannister han muerto, y eres el último miembro del Ejercito Lannister vivo. Para poder seguir cumpliendo con tu cometido en la guerra, has decidido dejar de lado las trampas y pasar a la accion.</value>
+  </string>
+  <string key="SnowFrozeHunter">
+    <!-- 0 - nombre del objetivo-->
+    <value>Roose Bolton, {0}, intentó tenderle una trampa a Robb Stark anoche, ¡pero Robb pudo empalarlo con su espada! {0} era un aliado Lannister.</value>
+  </string>
+  
+<!-- New Roles, ElNarradorBot -->
+  <string key="DGTransformToHungryWolf">
+    <!-- 0 - target's name -->
+    <!-- 1 - teammates's name -->
+    <value>{0} ha muerto, por lo que le has robado el rostro y ahora sustituiras a Mance Rayder. Tu ejercito (si lo hay) es: {1}</value>
+  </string>
+  
+  <string key="PoliceInnocent">
+    <!-- 0 - target's name -->
+    <value>¡Tras la visita a {0}, sabes con certeza que no es un Lannister!</value>
+  </string> 
+  <string key="PoliceGuilty">
+    <!-- 0 - target's name -->
+    <value>La visita a {0} no te ha aportado nada, sigues sin saber si es un Lannister o no...</value>
+  </string>
+  <string key="AskPolice">
+    <value>¿A quién quieres interrogar esta noche?</value>
+  </string>
+  
+  <string key="SheriffVisitHome">
+    <!-- 0 - target's name -->
+    <value>Ha sido una noche tranquila. {0} parecía estar durmiendo, así que te volviste a casa. (Tu objetivo se quedó en casa).</value>
+  </string>
+  <string key="SheriffVisitNotHome">
+    <!-- 0 - target's name -->
+    <value>¡Qué extraño! Mientras patrullabas la casa de {0}, viste como la abandonaba. (Tu objetivo salió de casa).</value>
+  </string>
+  <string key="AskSheriff">
+    <value>¿A quién quieres vigilar esta noche?</value>
+  </string>
+  <string key="SerialKillerKilledSheriff">
+    <!-- 0 - sheriff's name -->
+    <value>¡Sorpresa! Mientras que {0}, el sheriff de la aldea, esperaba que su objetivo volvera a casa, se encontró con un cuchillo por la espalda. Parece que trató de vigilar a la asesina en serie.</value>
+  </string>
+  <string key="CultTargetSheriffed">
+    <!-- 0 - target's name -->
+    <value>El miembro más reciente del culto fue a convertir a {0} a su casa, pero se encontró con el Sheriff vigilando, por lo que dio media vuelta, sin éxito.</value>
+  </string>
+  
+  <string key="RoleInfoAtheist">
+    <value>Eres Hodor. Eres un Westerosi pero, a diferencia de los demás, no eres lo suficientemente util para el Rey de la noche y jamás te convertirán en un caminante blanco.</value>
+  </string>
+  <string key="Atheist">
+    <value>Hodor 👦</value>
+  </string>
+  <string key="AboutAtheist">
+    <value>Hodor es un Westerosi normal, con la diferencia de que no puede ser convertido en un caminante blanco.</value>
+  </string>
+  
+  <string key="RoleInfoSurvivor">
+    <value>Eres Tormund Matagigantes. Tu único objetivo es sobrevivir, y te da igual quién gane mientras acabes la guerra vivo.</value>
+  </string>
+  <string key="Survivor">
+    <value>Tormund Matagigantes ⛺️</value>
+  </string>
+  <string key="AboutSurvivor">
+    <value>Tormund Matagigantes va por libre, su pasado salvaje no le permite unirse a nadie. Tormund debe sobrevivir como sea, y puede aliarse con el bando que desee, si le ayuda a mantenerse vivo hasta el final.</value>
+  </string>
+  
+  <string key="RoleInfoSheriff">
+    <value>Eres Sir Bronn. Cada noche puedes patrullar la casa de un Westerosi para comprobar si sale de ella o no. También ahuyentarás a todos los Caminantes blancos que se te acerque.</value>
+  </string>
+  <string key="Sheriff">
+    <value>Sir Bronn 🤠</value>
+  </string>
+  <string key="AboutSheriff">
+    <value>La función de Sir Bronn es muy importante. Su cometido es investigar y proteger a la vez. Cada noche puede saber si un Westeroso tiene un cometido de visitante y evitar que le conviertan en Caminante Blanco. Eso sí, vuelve pronto a casa, por lo que los caminantes blancos puede convertirle aunque salga de patrulla.</value>
+  </string>
+	<string key="RoleInfoPolice">
+    <value>Eres Jorah Mormont. Cada noche puedes interrogar a un Westerosi. Si no es un Lannister, tienes un 50% de saberlo. Además, contaras com la ayuda de otros soldados al buscar infomacion (Pueden aparecer mas Jorah Mormont).</value>
+  </string>
+  <string key="Police">
+    <value>Jorah Mormont 👮</value>
+  </string>
+  <string key="AboutPolice">
+    <value>Jorah Mormont es un Westerosi mas: puede haber varios. Cada noche puedes interrogar a un Westerosi. Si no es un Lannister, tienes un 50% de saberlo. En caso contrario no sabrás nada. Si averiguas que tu objetivo no es un Lannister puede ser un Westerosi, un caminante blanco, Aerys Targaryen o Petyr Baylish.</value>
+  </string>
+  
+  <string key="RoleInfoPyro">
+    <value>¡Eres Aerys Targaryen! Cada noche elige a un jugador para rociar fuego valyrio por su casa. También puedes encender el fuego valyrio y matar a todos los que hayas rociado anteriormente. Tu objetivo es ser el último vivo y conseguir el trono que te pertenece.</value>
+  </string>
+  <string key="Pyro">
+    <value>Aerys Targaryen 🔥</value>
+  </string>
+  <string key="AboutPyro">
+    <value>Aerys Targaryen va por solitario, nunca necesito a nadie. Cada noche puedes rociar con fuego valyrio la casa de un alguien, o prender el fuego para matar a todos los que hayas visitado anteriormente, ¡escoge el momento adecuado! Como no estás en casa, los Lannister no te podrán asesinar. Además, la Margaery Tyrell no te puede detectar.</value>
+  </string>
+  
+  <string key="RoleInfoHungryWolf">
+    <value>Eres Mance Rayder. Decidiste unirte a los Lannister. Mientras estés vivo, hay un 40% de que el cuerpo de vuestras víctimas no sea revelado a la aldea, ya que usarás sus cuerpos para alimentar a tu tribu.</value>
+  </string>
+  <string key="HungryWolf">
+    <value>Mance Rayder 🐺🍽</value>
+  </string>
+  <string key="AboutHungryWolf">
+    <value>Mancer Rayeer es un aliado de los Lannister muy poderoso. Mientras viva, hay un 40% de conseguir deshacerte de las víctimas, por lo que los aldeanos no podrán identificar su rol.</value>
+  </string>
+  
+  <string key="AskDouse">
+    <value>¿A quién quieres rociar con fuego valyrio?</value>
+  </string>
+  <string key="Ignite">
+    <value>¡Encender fuego valyrio! 🔥</value>
+  </string>
+  <string key="ExtraDouse">
+    <value>Como no quedan Lannister, los Westerosi han bajado la guardia y tú aprovechas la oportunidad para rociar a otra persona.</value>
+  </string>
+  <string key="DefaultIgnited">
+    <!-- 0 - target's name -->
+    <!-- 1 - target's role -->
+    <value>¡Vaya catástrofe! Los Westerosi descubren la casa de {0} chamuscada. Ha de ser obra de Aerys Targaryen. {1}.</value>
+	<value>Hoy es un día trágico. Los Westerosi encuentran las cenizas de {0}, otra víctima de Aerys Targaryen. {1}.</value>
+	<value>{0} trató de jugar con fuego valyrio esta noche, y... ha muerto. {1}.</value>
+  </string>
+  <string key="PyroWins" isgif="true">
+    <value>¡Todo Westeros ha sido incenciado! Aerys Targaryen ha ganado.</value>
+  </string>
+  <string key="PyroVisitHunter">
+    <!-- 0 - target's name -->
+    <value>¡Aggg! Resuena un grito por todo Westeros. Tras salir de sus casas, los Westerosy encuentran el cadáver de {0}, rodeado de charcos de fuego valyrio y sangre. Parece que a Robb Stark no le gusta ser rociado.</value>
+  </string>
+  <string key="DousedDrunkNight">
+    <!-- 0 - target's name -->
+    <value>¡Vaya! {0} era Robert Baratheon y, por no ir con cuidado, ha muerto en llamas inmediatamente.</value>
+  </string>
+  <string key="GuardBlockedArso">
+    <!-- 0 - target's name -->
+    <value>Mientras te acercas a la casa de {0}, comienzas a sentir una fuerte presencia. Descubres a Catelyn Tully protegiéndole, y rápidamente huyes.</value>
+  </string>
+  
+  <string key="PlayerDevouredWolves">
+    <!-- 0 - target's name -->
+	<!-- 1 - hungrywolf's name -->
+    <!-- 2 - target's role -->
+    <value>Parece que la tribu de {1} estaba muy hambrienta y Mance ha decido entregarles el cuerpo de {0} para que sacien su apetito. No ha dejado rastro de su cometido, aunque los demas miembros del Ejército pudisteis identificar a tiempo que era {2}.</value>
+  </string>
+  <string key="WasDevoured">
+    <value>Devorado</value>
+  </string>
+  
+  <string key="RoleInfoImposter">
+    <value>Eres Ilyn Payne. Eres del bando de los Lannister. Gracias a tus habilidades, puedes imitar el cometido de un Westerosi durante toda la partida. No podrás realizar sus cometido, pero al morir aparecerás como el. Ned Stark y Lord Varys también te verán como el westerosi imitado.</value>
+  </string>
+  <string key="Imposter">
+    <value>Ilyn Payne ❌</value>
+  </string>
+  <string key="AboutImposter">
+    <value>Ilyn Payne elige a un Westerosi para imitar toda la partida, en la primera noche. Cuando muera, aparecerá como el Westerosi imitado. Cuando le perciban, le percibirán como al westerosi imitado. No podrá realizar su cometido, pero le servirá para confundir a todo Westeros, ya que va con los Lannister. Sin embargo, al igual que Cerssei Lannister no sabes quienes son y no asesinas con ellos.</value>
+  </string>
+  
+  <string key="RoleInfoBaker">
+    <value>Eres Pastel Caliente. Eres un Westerosi honrado y querido por todos en Westeros. Si mueres, de la forma que sea, los Westerosi estaran de luto y no habrá linchamientos por un día.</value>
+  </string>
+  <string key="Baker">
+    <value>Pastel Caliente 🍞</value>
+  </string>
+  <string key="AboutBaker">
+    <value>Pastel Caliente es un westerosi mas. Si muere, causará tal tristeza en todo el mundo que no lincharán por un día. Por ello, es importante que se oculte, pues los Lannister querrán matarlo. Y, cuidado, morir por AFK también cuenta, así que suicidarse no es una opción.</value>
+  </string>
+  
+  <string key="AskImposter">
+    <value>¿A quién quieres imitar?</value>
+  </string>
+  <string key="NewIMRoleModel">
+    <!-- 0 - target's name -->
+    <value>Eres Ilyn Payne. El Westerosi que estás imitando es {0}.</value>
+  </string>
+  
+  <string key="BakerNoLynch">
+    <value>El ocaso se acerca, pero los Westerosi no están de humor para linchamientos, y se vuelven a sus casas. La muerte de Pastel Caliente ha dejado a todos conmocionados.</value>
+  </string>
+  <string key="BakerEaten">
+    <!-- 0 - dead man's name -->
+    <value>Al dirigirse a la taberna, como todas las mañanas, los Westerosi se encuentran con una terrorífica escena. {0}, Pastel Caliente, ha muerto. [Hoy no habrá linchamiento]</value>
+  </string>
+  
+  <string key="PlayerStartedClumsyGame">
+   <!-- 0 - Player name -->
+   <value>¡{0} ha empezado una partida torpe! Pulsa el botón para unirte a la guerra por el trono de hierro … y probablemente tropezarte :P</value>
+   <value>¡{0} ha iniciado una nueva partida torpe! ¡Pulsa el botón para ser Asesinado!</value>
+ </string>
+ 
+ <string key="PlayerStartedSuperChaosGame">
+   <!-- 0 - Player name -->
+   <value>¡{0} ha empezado una partida supercaótica! Pulsa el botón para unirte a la diversión… y probablemente ser asesinado :P</value>
+   <value>¡{0} ha iniciado una nueva partida supercaótica! ¡Pulsa el botón para ser asesinado!</value>
+ </string>
+ 
+ <string key="PlayerRevived">
+    <!-- 0 - revived man's name -->
+    <value>Un increíble suceso se ha producido esta noche. Al reunirse los aldeanos, reconocen el familiar rostro de {0}, que ha vuelto a la vida gracias al curandero.</value>
+  </string>
+  
+  <string key="AskRevive">
+    <value>¿A quién quieres revivir esta noche? (Solo una vez en la partida)</value>
+  </string>
+  
+  <string key="RoleInfoHealer">
+    <value>Eres Lord Qyburn. Gracias a tus conocimientos místicos, puedes traer de vuelta a un Westerosi que haya muerto. Sin embargo, solo podrás hacerlo una vez.</value>
+  </string>
+  <string key="Healer">
+    <value>Lord Qyburn 🌟</value>
+  </string>
+  <string key="AboutHealer">
+    <value>Lord Qyburn es un Westerosi muy importante. A partir de la segunda noche, puede revivir a otro Westerosi que sea parte de su bando y esté muerto. Solo podrá revivir una vez en toda la partida. No puede revivirse a si mismo, pues su habilidad solo puede usarla mientras viva.</value>
+  </string>
+  
+  <string key="RoleInfoRabidWolf">
+    <value>Eres un Comandante Lannister. Fuiste el primer comandante del ejército elegido por el mismisimo Tywin. Eres de gran importancia para él, y si mueres, te buscará un sucesor (la próxima víctima de los Lannister se convertira en Comandante).</value>
+  </string>
+  <string key="RabidWolf">
+    <value>Comandante Lannister 🐺🤢</value>
+  </string>
+  <string key="AboutRabidWolf">
+    <value>El Comandante Lannister es como un "Comandante Infinito". Mientras Tywin siga vivo, cada vez que un Comandante muera, le buscará un sucesor. Para detenerlo, los Westerosi deben encontrar a Tywin Lannister primero. Si los Lannister fallan al asesinar tras morir un Comandante (ángel, herrero...), continuarán buscando un sucesor la próxima noche. El Comandante Solo puede aparecer si Tywin participa en la Guerra.</value>
+  </string>
+  
+  <string key="DGTransformToRabidWolf">
+    <!-- 0 - target's name -->
+    <!-- 1 - teammates's name -->
+    <value>{0} ha muerto, por lo que le has robado el rostro y ahora  eres un Comandante Lannister. Tu Ejército (si lo hay) es: {1}</value>
+  </string>
+  
+  <string key="ImposterSees">
+    <!-- 0 - target's role -->
+    <value>Estás imitando a {0}, así que procura actuar como tal.</value>
+  </string>
+  
+  <string key="RoleInfoSleepwalker">
+    <value>Eres un simple Westerosi. Estás condenado a pasar tus días labrando el campo... y ser comido.</value>
+  </string>
+  <string key="Sleepwalker">
+    <value>George R.R. Martin😴</value>
+  </string>
+  <string key="AboutSleepwalker">
+    <value>George R.R.Martin es un Westerosi más, con la diferencia de que cada noche, sin saberlo, tiene un 80% de probabilidad de salir de casa, siendo inmune contra Lannister y Caminantes blancos esa noche. Sin embargo, ni el mismo sabe que lo es, y pensará que es un Westerosi normal.</value>
+  </string>
+  
+  <string key="MinutesLeftToJoin">
+  <!-- 0 - remaining minutes (number) -->
+    <value>Quedan {0} minutos para unirse.</value>
+  </string>
+  
+  <string key="RoleInfoHerbalist">
+    <value>Eres Ellaria Arena. Debido a la amenaza de los Lannister, decides usar tus conocimientos para envenenar a un Westerosi cada dos noches. Tu objetivo sabrá que ha sido envenenado, y morirá la próxima noche. Solo tú conoces el antídoto, y podrás decidir si dárselo la próxima noche y salvarlo o dejarlo morir. Eres parte de Westeros.</value>
+  </string>
+  <string key="Herbalist">
+    <value>Ellaria Arena 🍃</value>
+  </string>
+  <string key="AboutHerbalist">
+    <value>Ellaria Arena es una Westerosi experta en hierbas medicinales... y no tan medicinales. A causa de la aparición de los Lannister en Westeros, cada dos noches visitará a otro para envenenarlo. El objetivo sabrá que ha sido envenenado y morirá la próxima noche. Existe un antídoto, pero sólo lo conoce la propia Ellaria la cual se lo podrá dar la próxima noche si se arrepiente de su decisión.</value>
+  </string>
+  <string key="HerbalistPoisonedYou">
+    <value>A medida que terminas de desayunar empiezas a sentirte mareado... ¡parece que te han envenenado! Morirás la próxima noche si no consigues un antídoto.</value>
+  </string>
+  <string key="GuardBlockedHerbalist">
+    <value>Trataste de envenenar a {0} esta noche, pero Catelyn Tully le estaba protegiendo, y se encargó de purificar todo tipo de veneno.</value>
+  </string>
+  <string key="PoisonedAlreadyDead">
+    <value>Como tu anterior objetivo ya ha muerto, decides descansar esta noche y continuar envenenando mañana.</value>
+  </string>
+  <string key="CurePoisoned">
+    <value>Te arrepentiste de tu decisión de envenenar a {0}, por lo que le diste un antidoto para salvarle la vida.</value>
+  </string>
+  <string key="HerbalistCuredYou">
+    <value>Durante la noche oyes un ruido, y sales a mirar. Descubres un frasco que pone "Antídoto". Como no tienes nada que perder, decides tomarte su contenido.</value>
+  </string>
+  <string key="DefaultPoisoned">
+    <!-- 0 - target's name -->
+    <!-- 1 - target's role -->
+    <value>Al llegar la mañana, los Westerosi comienzan a abrir los ojos y despertarse... excepto {0}, el cual ha decidido dormir para siempre. Parece que murió envenenado por la Ellaia Arena {1}.</value>
+  </string>
+  <string key="AskPoison">
+    <value>¿A quién quieres envenenar esta noche?</value>
+  </string>
+  <string key="AskCure">
+    <value>Tu veneno ha surtido efecto, y {0} morirá esta noche. Sin embargo, aun puedes salvarle. ¿Quieres darle el antídoto y evitar su muerte?</value>
+  </string>
+  <string key="WolfList">
+    <value>El Ejercito Lannister está formado por:</value>
+  </string>
+  
+  <string key="RoleInfoNinja">
+    <value>Eres Gusano Gris. Cada noche podrás decidir si quedarte despierto o dormir. Si decides quedarte despierto, estarás alerta y te ocultarás del primer atacante que te visite. Sin embargo, si no te visitan, deberás descansar la próxima noche.</value>
+  </string>
+  <string key="Ninja">
+    <value>Gusano Gris 💨</value>
+  </string>
+  <string key="AboutNinja">
+    <value>Gusano Gris es el lider de los Inmaculados. Cada noche puede decidir si dormir o no. Si se queda despierto, estará alerta y usará sus habilidades para ocultarse del primer atacante que le visite. Sin embargo, todo el mundo necesita descanso. Por ello, si decide pasar una noche despierto y no le visitan, deberá dormir la próxima obligatoriamente, le hayan visitado o no. Además, tiene un 50% de ser encontrado por Petyr Baelish mientras se oculta.</value>
+  </string>
+  <string key="NinjaHidden">
+    <value>Mientras vigilas, notas que alguien se acerca. En silencio ocultas tu presencia hasta que se marcha. (Alguien te ha visitado)</value>
+  </string>
+  <string key="NinjaFailed">
+    <value>Mientras vigilas, notas que alguien se acerca. En silencio ocultas tu presencia hasta que se marcha... o eso pensabas, hasta que una silueta aparece por detrás y te clava un cuchillo.</value>
+  </string>
+  <string key="AskHide">
+    <value>¿Quieres mantenerte despierto esta noche y evitar visitas?</value>
+  </string>
+  <string key="NinjaKilled">
+    <value>Tras un buen rato de búsqueda, los aldeanos encuentran el cuerpo de {0}, escondido entre unos arbustos. Parece que Gusano Gris fue descubierto por Petyr Baelish mientras se ocultaba.</value>
+  </string>
+  
+  <string key="PointsObtained">
+    <value>¡Has obtenido {0} puntos! Ahora tienes {1}.</value>
+  </string>
+  <string key="InvalidRolelist">
+    <value>La lista de roles no es válida. Por favor, asegúrate de usar solo emojis válidos separados por comas. Para más información, usa /helpCustom.</value>
+  </string>
+  <string key="PlayerStartedCustomGame">
+   <!-- 0 - Player name -->
+   <value>¡{0} ha empezado una partida custom! Pulsa el botón para unirte a la diversión… y probablemente morir :P</value>
+   <value>¡{0} ha iniciado una nueva partida custom! ¡Pulsa el botón para ser comido!</value>
+  </string>
+  <string key="NeedRolelist">
+    <value>Necesitas una lista de roles para iniciar custom. Para más información, usa /helpCustom.</value>
+  </string>
+  <string key="NotEnoughBaddies">
+    <value>La lista de roles no es válida. Uno de los 4 primeros roles ha de ser un rol malo. Para más información, usa /helpCustom.</value>
+  </string>
+  <string key="LatestRoleList">
+    <value>Aquí tienes la lista de roles:</value>
+  </string>
+  <string key="UnableToGetRoleList">
+    <value>No ha comenzado la partida.</value>
+  </string>
+  
+  <string key="Random">
+    <value>rol aleatorio ❓</value>
+  </string>
+  <string key="RandomVillagerNoAlly">
+    <value>aldea (sin aliados) ✅</value>
+  </string>
+  <string key="RandomVillager">
+    <value>aldea (con aliados) ✅</value>
+  </string>
+  <string key="RandomKiller">
+    <value>rol asesino aleatorio ⚠️</value>
+  </string>
+  <string key="RandomBaddie">
+    <value>rol asesino o culto ⚠👤</value>
+  </string>
+  <string key="RandomWolf">
+    <value>lobo aleatorio 🆘</value>
+  </string>
+  <string key="RandomAlly">
+    <value>aliado de lobo ☢️</value>
+  </string>
+  <string key="RandomNeutral">
+    <value>rol neutral aleatorio ✳️</value>
+  </string>
+  <string key="Random120">
+    <value>rol 120 aleatorio</value>
+  </string>
+  <string key="RandomSkyro">
+    <value>asesina o pirómano 🔪🔥</value>
+  </string>
+  <string key="RandomCultable">
+    <value>siempre culteable aleatorio 💯</value>
+  </string>
+  <string key="RandomLowCultable">
+    <value>poco culteable aleatorio ❇️</value>
+  </string>
+  
+  <string key="HelpCustom">
+    <value>Cómo crear una partida custom:\n\nPara iniciar una partida custom debes poner el comando /startcustom seguido de la lista de roles a usar. Esta lista está formada por los emojis de los roles que quieres que salgan, separados por comas y SIN espacios. Si se unen menos jugadores que los que hay en la lista, cogerá roles empezando desde la izquierda, por lo que debes poner un malo en los 4 primeros roles como mínimo. La partida empieza automáticamente en cuanto se unan tantos jugadores como roles haya en la lista. Para ver qué emojis puedes usar, pon /emojisCustom.\n</value>
+  </string>
+  <string key="EmojisCustom">
+    <value>Roles específicos: su emoji de rol, puedes verlo en /rolelist\n❓ - Rol aleatorio entre todos\n✅ - Rol aleatorio de aldea (sin traidor, maldito, niño)\n❎ - Rol aleatorio de aldea (con traidor, maldito, niño)\n⚠️ - Lobo aleatorio, asesina o pirómano\n⚠️👤 - Lobo aleatorio, asesina, pirómano o culto\n🆘 - Lobo aleatorio\n☢️ - Aliado de lobo aleatorio\n✳️ - Superviviente, doppel o veterano\n120 - Cupido, niño, doppel o impostor\n🔪🔥 - Asesina o pirómano\n💯 - Siempre culteable aleatorio\n❇️ - Poco culteable aleatorio (sin ramera y ángel)</value>
+  </string>
+  
+  <string key="SKStabbedYou">
+    <value>¡Oh, no! Petyr Baelish te ha asesinado.</value>
+  </string>
+  <string key="PyroBurnedYou">
+    <value>¡FUEGOOOOOO VALYRIOOOO! Te despiertas entre llamas, pero ya es demasiado tarde. Has muerto.</value>
+  </string>
+  
+  <string key="RoleInfoSnooper">
+    <value>Eres un Espia Lannister. Cada noche puedes espiar a un Westerosi para averiguar si tiene un cometido nocturno  o no. Además, debido a tu duro entrenamiento, podrás diferenciar a Robert Baratheon, a Pastel Caliente o a Ellaria Arena.</value>
+  </string>
+  <string key="Snooper">
+    <value>Espía Lannister 🐾</value>
+  </string>
+  <string key="AboutSnooper">
+    <value>El espia Lannister es un soldado de apoyo, como el Roose Bolton. Cada noche puede espiar a un Westerosi para averiguar si tiene un cometido nocturno o no. Además, debido a su duro entrenamiento, puede identificar si su objetivo es el Robert Baratheon, Pastel Caliente o Ellaria Arena, Si el resto de Lannister muere, se convertirá en un soldado normal. Además, si Tywin obliga al detective a unirse a su ejercito, éste se convertirá en Espia Lannister.</value>
+  </string>
+  <string key="AskSnoop">
+    <value>¿A quién quieres espiar?</value>
+  </string>
+  <string key="SnoopAction">
+    <value>Al acercarte a la casa de {0}, oyes movimiento, por lo que parece que está despierto. (Tiene un cometido nocturno). </value>
+  </string>
+  <string key="SnoopNoAction">
+    <value>Tras inspeccionar la casa de {0}, no oyes ni percibes nada inusual, parece que duerme. (No tiene cometido nocturno).</value>
+  </string>
+  <string key="SnoopDrunk">
+    <value>Al acercarte a la casa de {0}, reconoces un fuerte olor a alcohol. ¡Así que {0} es {1}!</value>
+  </string>
+  <string key="SnoopHerbalist">
+    <value>Al acercarte a la casa de {0}, notas un olor a plantas y hierbas medicinales. ¡Así que {0} es {1}!</value>
+  </string>
+  <string key="SnoopBaker">
+    <value>Al acercarte a la casa de {0}, distingues un delicioso olor a pan recién hecho. ¡Así que {0} es {1}!</value>
+  </string>
+  <string key="PlayerStartedRankedGame">
+   <!-- 0 - Player name -->
+   <value>¡{0} ha empezado una partida con puntos! Pulsa el botón para unirte a la competición... y probablemente ser asesinado :P</value>
+   <value>¡{0} ha iniciado una nueva partida con puntos! ¿Lograrás entrar en el top 10?</value>
+ </string>
+ <string key="NotEnoughMembersRanked">
+    <value>Para iniciar una partida con puntos, el grupo debe tener al menos 30 miembros. Puedes jugar el mismo tipo de partida, pero sin puntos, con /startgame.</value>
+  </string>
+  
+  <string key="DisableVillagerQ">
+    <value>¿Desactivar Westerosi (y a Ramsay Bolton)?\nActualmente: {0}</value>
+  </string>
+  <string key="DisableVillagerA">
+    <value>Westerosi desactivados: {0}</value>
+  </string>
+  <string key="DisableVillager">
+    <value>Quitar Westerosi 👱‍ (y a Ramsay Bolton)</value>
+  </string>
+  
+  <string key="StrongModeQ">
+    <value>¿Activar modo fuerte? No aparecerán roles inútiles o perjudiciales para su equipo (aldeano, torpe, panadero...)\nActualmente: {0}</value>
+  </string>
+  <string key="StrongModeA">
+    <value>Modo fuerte: {0}</value>
+  </string>
+  <string key="StrongMode">
+    <value>Modo Fuerte</value>
+  </string>
+  
+  <string key="ShowRankEnabled">
+    <value>Tu rango de puntuación se mostrará en las partidas ranked.</value>
+  </string>
+  <string key="ShowRankDisabled">
+    <value>Tu rango de puntuación no se mostrará en ninguna partida.</value>
+  </string>
+  <string key="CantShowRank">
+    <value>Tu rango es demasiado bajo para usar este comando. Alcanza primero 1000 puntos.</value>
+  </string>
+  <string key="CantStartClumsy">
+    <value>Tu rango es demasiado bajo para iniciar este modo de juego. Alcanza 1400 puntos para desbloquearlo.</value>
+  </string>
+  <string key="NoRoleProvided">
+    <value>Debes usar el comando /toprole seguido del emoji de un rol.</value>
+  </string>
+  
+  <string key="CantSetRolelist">
+    <value>Tu rango es demasiado bajo para usar este comando. Alcanza primero 1600 puntos.</value>
+  </string>
+  <string key="RolelistSaved">
+    <value>Changes saved!</value>
+  </string>
+  <string key="IsThisAmnesia">
+  <!-- Put "Yes" if it's an amnesia language! If not, anything else works -->
+    <value>No</value>
+  </string>
+</strings>
